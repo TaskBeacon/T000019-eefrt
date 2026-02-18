@@ -1,0 +1,492 @@
+[
+  {
+    "id": "W2889918482",
+    "title": "The Latent Structure of Negative Symptoms in Schizophrenia",
+    "authors": [
+      "Gregory P. Strauss",
+      "Alicia Nu\u00f1ez",
+      "Anthony O. Ahmed",
+      "Kimberly A. Barchard",
+      "Eric Granholm",
+      "Brian Kirkpatrick",
+      "James M. Gold",
+      "Daniel N. Allen"
+    ],
+    "year": 2018,
+    "journal": "JAMA Psychiatry",
+    "doi_or_url": "https://doi.org/10.1001/jamapsychiatry.2018.2475",
+    "citation_count": 182,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1980196077",
+    "title": "Dopamine Antagonism Decreases Willingness to Expend Physical, But Not Cognitive, Effort: A Comparison of Two Rodent Cost/Benefit Decision-Making Tasks",
+    "authors": [
+      "Jay G. Hosking",
+      "Stan Floresco",
+      "Catharine A. Winstanley"
+    ],
+    "year": 2014,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2014.285",
+    "citation_count": 154,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3112636500",
+    "title": "Mitofusin-2 in the Nucleus Accumbens Regulates Anxiety and Depression-like Behaviors Through Mitochondrial and Neuronal Actions",
+    "authors": [
+      "Elias Gebara",
+      "Olivia Zanoletti",
+      "Sriparna Ghosal",
+      "Jocelyn Grosse",
+      "Bernard L. Schneider",
+      "Graham Knott",
+      "Simone Astori",
+      "Carmen Sandi"
+    ],
+    "year": 2020,
+    "journal": "Biological Psychiatry",
+    "doi_or_url": "https://doi.org/10.1016/j.biopsych.2020.12.003",
+    "citation_count": 134,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2520703908",
+    "title": "Lipopolysaccharide Alters Motivated Behavior in a Monetary Reward Task: a Randomized Trial",
+    "authors": [
+      "Julie Lasselin",
+      "Michael T. Treadway",
+      "Tamara E. Lacourt",
+      "Anne Soop",
+      "Mats J. Olsson",
+      "Bianka Karshikoff",
+      "Sofie Paues G\u00f6ranson",
+      "John Axelsson",
+      "Robert Dantzer",
+      "Mats Lekander"
+    ],
+    "year": 2016,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2016.191",
+    "citation_count": 125,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2097963977",
+    "title": "Sensitivity to Cognitive Effort Mediates Psychostimulant Effects on a Novel Rodent Cost/Benefit Decision-Making Task",
+    "authors": [
+      "Paul J. Cocker",
+      "Jay G. Hosking",
+      "James Benoit",
+      "Catharine A. Winstanley"
+    ],
+    "year": 2012,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2012.30",
+    "citation_count": 105,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2074669819",
+    "title": "Worth the \u2018EEfRT\u2019? The Effort Expenditure for Rewards Task as an Objective Measure of Motivation and Anhedonia",
+    "authors": [
+      "Michael T. Treadway",
+      "Joshua W. Buckholtz",
+      "Ashley N. Schwartzman",
+      "Warren Lambert",
+      "David H. Zald"
+    ],
+    "year": 2009,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0006598",
+    "citation_count": 737,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2123089523",
+    "title": "Effort-based decision-making in major depressive disorder: A translational model of motivational anhedonia.",
+    "authors": [
+      "Michael T. Treadway",
+      "Nicholas A. Bossaller",
+      "Richard C. Shelton",
+      "David H. Zald"
+    ],
+    "year": 2012,
+    "journal": "Journal of Abnormal Psychology",
+    "doi_or_url": "https://doi.org/10.1037/a0028813",
+    "citation_count": 704,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1964544901",
+    "title": "Dopaminergic Mechanisms of Individual Differences in Human Effort-Based Decision-Making",
+    "authors": [
+      "Michael T. Treadway",
+      "Joshua W. Buckholtz",
+      "Ronald L. Cowan",
+      "Neil D. Woodward",
+      "Rui Li",
+      "M. Sib Ansari",
+      "Ronald M. Baldwin",
+      "Ashley N. Schwartzman",
+      "Robert Kessler",
+      "David H. Zald"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6459-11.2012",
+    "citation_count": 371,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1991756001",
+    "title": "Amping Up Effort: Effects of<i>d</i>-Amphetamine on Human Effort-Based Decision-Making",
+    "authors": [
+      "Margaret C. Wardle",
+      "Michael T. Treadway",
+      "Leah M. Mayo",
+      "David H. Zald",
+      "Harriet de Wit"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4387-11.2011",
+    "citation_count": 256,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2515201192",
+    "title": "Acute and chronic effects of cannabinoids on effort-related decision-making and reward learning: an evaluation of the cannabis \u2018amotivational\u2019 hypotheses",
+    "authors": [
+      "Will Lawn",
+      "Tom P. Freeman",
+      "Rebecca Pope",
+      "Alyssa Joye",
+      "Lisa A. Harvey",
+      "Chandni Hindocha",
+      "Claire Mokrysz",
+      "Abigail Moss",
+      "Matthew B. Wall",
+      "Michael Bloomfield",
+      "Ravi Das",
+      "Celia J. A. Morgan"
+    ],
+    "year": 2016,
+    "journal": "Psychopharmacology",
+    "doi_or_url": "https://doi.org/10.1007/s00213-016-4383-x",
+    "citation_count": 171,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2087839453",
+    "title": "Behavioral Modeling of Human Choices Reveals Dissociable Effects of Physical Effort and Temporal Delay on Reward Devaluation",
+    "authors": [
+      "Miriam C. Klein-Fl\u00fcgge",
+      "Steven W. Kennerley",
+      "Ana Cristina Saraiva",
+      "W.D. Penny",
+      "Sven Bestmann"
+    ],
+    "year": 2015,
+    "journal": "PLoS Computational Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pcbi.1004116",
+    "citation_count": 162,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2931590275",
+    "title": "Deep brain stimulation of the internal capsule enhances human cognitive control and prefrontal cortex function",
+    "authors": [
+      "Alik S. Widge",
+      "Samuel Zorowitz",
+      "Ishita Basu",
+      "Angelique C. Paulk",
+      "Sydney S. Cash",
+      "Emad N. Eskandar",
+      "Thilo Deckersbach",
+      "Earl K. Miller",
+      "Darin D. Dougherty"
+    ],
+    "year": 2019,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-019-09557-4",
+    "citation_count": 149,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2046466534",
+    "title": "Effort-Related Motivational Effects of the VMAT-2 Inhibitor Tetrabenazine: Implications for Animal Models of the Motivational Symptoms of Depression",
+    "authors": [
+      "Eric J. Nunes",
+      "Patrick A. Randall",
+      "Evan E. Hart",
+      "Charlotte M. Freeland",
+      "Samantha E. Yohn",
+      "Younis Baqi",
+      "Christa E. M\u00fcller",
+      "Laura L\u00f3pez\u2010Cruz",
+      "Merc\u00e8 Correa",
+      "John D. Salamone"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2730-13.2013",
+    "citation_count": 133,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2063433222",
+    "title": "Adaptive effort investment in cognitive and physical tasks: a neurocomputational model",
+    "authors": [
+      "Tom Verguts",
+      "Eliana Vassena",
+      "Massimo Silvetti"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2015.00057",
+    "citation_count": 132,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2161802750",
+    "title": "Microstructural Abnormalities in Subcortical Reward Circuitry of Subjects with Major Depressive Disorder",
+    "authors": [
+      "Anne J. Blood",
+      "Dan V. Iosifescu",
+      "Nikos Makris",
+      "Roy H. Perlis",
+      "David N. Kennedy",
+      "Darin D. Dougherty",
+      "Byoung Woo Kim",
+      "Myung J. Lee",
+      "Shirley Wu",
+      "Sang Lee",
+      "Jesse Calhoun",
+      "Steven M. Hodge"
+    ],
+    "year": 2010,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0013945",
+    "citation_count": 128,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2102225001",
+    "title": "Effort-Based Decision-Making Paradigms for Clinical Trials in Schizophrenia: Part 2\u2014External Validity and Correlates",
+    "authors": [
+      "William P. Horan",
+      "L. Felice Reddy",
+      "Deanna M. Barch",
+      "Robert W. Buchanan",
+      "Eduardo Dunayevich",
+      "James M. Gold",
+      "Steven R. Marder",
+      "Jonathan K. Wynn",
+      "Jared W. Young",
+      "Michael F. Green"
+    ],
+    "year": 2015,
+    "journal": "Schizophrenia Bulletin",
+    "doi_or_url": "https://doi.org/10.1093/schbul/sbv090",
+    "citation_count": 109,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4391997406",
+    "title": "Deep phenotyping of post-infectious myalgic encephalomyelitis/chronic fatigue syndrome",
+    "authors": [
+      "Brian Walitt",
+      "Komudi Singh",
+      "Samuel R. LaMunion",
+      "Mark Hallett",
+      "Steve Jacobson",
+      "Kong Y. Chen",
+      "Yoshimi Enose\u2010Akahata",
+      "Richard Apps",
+      "Jennifer J. Barb",
+      "Patrick B\u00e9dard",
+      "Robert J. Brychta",
+      "Ashura Buckley"
+    ],
+    "year": 2024,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-024-45107-3",
+    "citation_count": 108,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1993869710",
+    "title": "The VMAT-2 Inhibitor Tetrabenazine Affects Effort-Related Decision Making in a Progressive Ratio/Chow Feeding Choice Task: Reversal with Antidepressant Drugs",
+    "authors": [
+      "Patrick A. Randall",
+      "Christie A. Lee",
+      "Eric J. Nunes",
+      "Samantha E. Yohn",
+      "Victoria Nowak",
+      "Bilal Khan",
+      "Priya S. Shah",
+      "Saagar Pandit",
+      "Kiran Vemuri",
+      "A. Makriyannis",
+      "Younis Baqi",
+      "Christa E. M\u00fcller"
+    ],
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0099320",
+    "citation_count": 107,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2403484840",
+    "title": "Anhedonia and general distress show dissociable ventromedial prefrontal cortex connectivity in major depressive disorder",
+    "authors": [
+      "Christina B. Young",
+      "T. Chen",
+      "Robin Nusslock",
+      "Jennifer Keller",
+      "Alan F. Schatzberg",
+      "Vinod Menon"
+    ],
+    "year": 2016,
+    "journal": "Translational Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/tp.2016.80",
+    "citation_count": 102,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]

@@ -1,0 +1,77 @@
+task_id: T000019
+generated_at: "2026-02-17T00:00:00Z"
+selection_policy: "manual_curation_reference_exact_protocol"
+citation_threshold: 100
+papers:
+  - id: R1_TREADWAY_2009
+    title: "Worth the 'EEfRT'? The Effort Expenditure for Rewards Task as an Objective Measure of Motivation and Anhedonia"
+    authors:
+      - Michael T. Treadway
+      - Joshua W. Buckholtz
+      - Ashley N. Schwartzman
+      - Warren Lambert
+      - David H. Zald
+    year: 2009
+    journal: PLoS ONE
+    doi_or_url: "https://doi.org/10.1371/journal.pone.0006598"
+    citation_count: 700
+    is_high_impact: false
+    open_access: true
+    used_for:
+      - task_workflow
+      - effort_requirements
+      - reward_probability_design
+      - trial_timing
+    parameter_bindings:
+      easy_required_presses: 30
+      hard_required_presses: 100
+      easy_time_limit_s: 7
+      hard_time_limit_s: 21
+      reward_probability_levels: [0.12, 0.50, 0.88]
+      easy_reward_amount: 1.00
+      hard_reward_range: [1.24, 4.30]
+    notes: "Primary protocol source."
+
+  - id: R2_OHMANN_2022
+    title: "The Effort Expenditure for Rewards Task: Correlates and Reliability"
+    authors:
+      - Katerina Ohmann
+      - Eric Damme
+      - David H. Zald
+      - Michael T. Treadway
+    year: 2022
+    journal: PLoS ONE
+    doi_or_url: "https://doi.org/10.1371/journal.pone.0262902"
+    citation_count: 100
+    is_high_impact: false
+    open_access: true
+    used_for:
+      - protocol_replication
+      - design_validation
+      - quality_control
+    parameter_bindings:
+      paradigm_core: "easy-vs-hard effort choice under probability cue"
+      analysis_focus: "hard-task choice propensity"
+    notes: "Confirms canonical protocol remains stable and analyzable."
+
+  - id: R3_TREADWAY_2012
+    title: "Effort-based decision-making in major depressive disorder: A translational model of motivational anhedonia"
+    authors:
+      - Michael T. Treadway
+      - Nicholas A. Bossaller
+      - Richard C. Shelton
+      - David H. Zald
+    year: 2012
+    journal: Journal of Abnormal Psychology
+    doi_or_url: "https://doi.org/10.1037/a0028813"
+    citation_count: 700
+    is_high_impact: false
+    open_access: false
+    used_for:
+      - translational_usage
+      - task_validity
+      - outcome_interpretation
+    parameter_bindings:
+      primary_behavioral_endpoint: "hard-option choice rate"
+    notes: "Clinical translation reference using EEfRT construct."
+

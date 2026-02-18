@@ -1,0 +1,18 @@
+id: T000019
+slug: eefrt
+title: EEfRT Task
+acquisition: behavior
+variant: baseline
+cognitive_domain:
+  - motivation
+  - effort-based_decision_making
+maturity: draft
+version:
+  release_tag: v0.2.0-dev
+contracts:
+  psyflow_taps: v0.1.0
+evidence:
+  - references/references.yaml
+  - references/parameter_mapping.md
+  - references/stimulus_mapping.md
+maintainer: []

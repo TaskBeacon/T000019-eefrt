@@ -1,0 +1,2893 @@
+[
+  {
+    "id": "W2074669819",
+    "title": "Worth the \u2018EEfRT\u2019? The Effort Expenditure for Rewards Task as an Objective Measure of Motivation and Anhedonia",
+    "authors": [
+      "Michael T. Treadway",
+      "Joshua W. Buckholtz",
+      "Ashley N. Schwartzman",
+      "Warren Lambert",
+      "David H. Zald"
+    ],
+    "year": 2009,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0006598",
+    "citation_count": 737,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2123089523",
+    "title": "Effort-based decision-making in major depressive disorder: A translational model of motivational anhedonia.",
+    "authors": [
+      "Michael T. Treadway",
+      "Nicholas A. Bossaller",
+      "Richard C. Shelton",
+      "David H. Zald"
+    ],
+    "year": 2012,
+    "journal": "Journal of Abnormal Psychology",
+    "doi_or_url": "https://doi.org/10.1037/a0028813",
+    "citation_count": 704,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1964544901",
+    "title": "Dopaminergic Mechanisms of Individual Differences in Human Effort-Based Decision-Making",
+    "authors": [
+      "Michael T. Treadway",
+      "Joshua W. Buckholtz",
+      "Ronald L. Cowan",
+      "Neil D. Woodward",
+      "Rui Li",
+      "M. Sib Ansari",
+      "Ronald M. Baldwin",
+      "Ashley N. Schwartzman",
+      "Robert Kessler",
+      "David H. Zald"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.6459-11.2012",
+    "citation_count": 371,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2047265348",
+    "title": "Motivational deficits in effort-based decision making in individuals with subsyndromal depression, first-episode and remitted depression patients",
+    "authors": [
+      "Xinhua Yang",
+      "Jia Huang",
+      "Zhu Cui-ying",
+      "Yefei Wang",
+      "Eric F.C. Cheung",
+      "Raymond C. K. Chan",
+      "Guangrong Xie"
+    ],
+    "year": 2014,
+    "journal": "Psychiatry Research",
+    "doi_or_url": "https://doi.org/10.1016/j.psychres.2014.08.056",
+    "citation_count": 285,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1991756001",
+    "title": "Amping Up Effort: Effects of<i>d</i>-Amphetamine on Human Effort-Based Decision-Making",
+    "authors": [
+      "Margaret C. Wardle",
+      "Michael T. Treadway",
+      "Leah M. Mayo",
+      "David H. Zald",
+      "Harriet de Wit"
+    ],
+    "year": 2011,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.4387-11.2011",
+    "citation_count": 256,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2889918482",
+    "title": "The Latent Structure of Negative Symptoms in Schizophrenia",
+    "authors": [
+      "Gregory P. Strauss",
+      "Alicia Nu\u00f1ez",
+      "Anthony O. Ahmed",
+      "Kimberly A. Barchard",
+      "Eric Granholm",
+      "Brian Kirkpatrick",
+      "James M. Gold",
+      "Daniel N. Allen"
+    ],
+    "year": 2018,
+    "journal": "JAMA Psychiatry",
+    "doi_or_url": "https://doi.org/10.1001/jamapsychiatry.2018.2475",
+    "citation_count": 182,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2515201192",
+    "title": "Acute and chronic effects of cannabinoids on effort-related decision-making and reward learning: an evaluation of the cannabis \u2018amotivational\u2019 hypotheses",
+    "authors": [
+      "Will Lawn",
+      "Tom P. Freeman",
+      "Rebecca Pope",
+      "Alyssa Joye",
+      "Lisa A. Harvey",
+      "Chandni Hindocha",
+      "Claire Mokrysz",
+      "Abigail Moss",
+      "Matthew B. Wall",
+      "Michael Bloomfield",
+      "Ravi Das",
+      "Celia J. A. Morgan"
+    ],
+    "year": 2016,
+    "journal": "Psychopharmacology",
+    "doi_or_url": "https://doi.org/10.1007/s00213-016-4383-x",
+    "citation_count": 171,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2087839453",
+    "title": "Behavioral Modeling of Human Choices Reveals Dissociable Effects of Physical Effort and Temporal Delay on Reward Devaluation",
+    "authors": [
+      "Miriam C. Klein-Fl\u00fcgge",
+      "Steven W. Kennerley",
+      "Ana Cristina Saraiva",
+      "W.D. Penny",
+      "Sven Bestmann"
+    ],
+    "year": 2015,
+    "journal": "PLoS Computational Biology",
+    "doi_or_url": "https://doi.org/10.1371/journal.pcbi.1004116",
+    "citation_count": 162,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1980196077",
+    "title": "Dopamine Antagonism Decreases Willingness to Expend Physical, But Not Cognitive, Effort: A Comparison of Two Rodent Cost/Benefit Decision-Making Tasks",
+    "authors": [
+      "Jay G. Hosking",
+      "Stan Floresco",
+      "Catharine A. Winstanley"
+    ],
+    "year": 2014,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2014.285",
+    "citation_count": 154,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2931590275",
+    "title": "Deep brain stimulation of the internal capsule enhances human cognitive control and prefrontal cortex function",
+    "authors": [
+      "Alik S. Widge",
+      "Samuel Zorowitz",
+      "Ishita Basu",
+      "Angelique C. Paulk",
+      "Sydney S. Cash",
+      "Emad N. Eskandar",
+      "Thilo Deckersbach",
+      "Earl K. Miller",
+      "Darin D. Dougherty"
+    ],
+    "year": 2019,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-019-09557-4",
+    "citation_count": 149,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3112636500",
+    "title": "Mitofusin-2 in the Nucleus Accumbens Regulates Anxiety and Depression-like Behaviors Through Mitochondrial and Neuronal Actions",
+    "authors": [
+      "Elias Gebara",
+      "Olivia Zanoletti",
+      "Sriparna Ghosal",
+      "Jocelyn Grosse",
+      "Bernard L. Schneider",
+      "Graham Knott",
+      "Simone Astori",
+      "Carmen Sandi"
+    ],
+    "year": 2020,
+    "journal": "Biological Psychiatry",
+    "doi_or_url": "https://doi.org/10.1016/j.biopsych.2020.12.003",
+    "citation_count": 134,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2046466534",
+    "title": "Effort-Related Motivational Effects of the VMAT-2 Inhibitor Tetrabenazine: Implications for Animal Models of the Motivational Symptoms of Depression",
+    "authors": [
+      "Eric J. Nunes",
+      "Patrick A. Randall",
+      "Evan E. Hart",
+      "Charlotte M. Freeland",
+      "Samantha E. Yohn",
+      "Younis Baqi",
+      "Christa E. M\u00fcller",
+      "Laura L\u00f3pez\u2010Cruz",
+      "Merc\u00e8 Correa",
+      "John D. Salamone"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.2730-13.2013",
+    "citation_count": 133,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2063433222",
+    "title": "Adaptive effort investment in cognitive and physical tasks: a neurocomputational model",
+    "authors": [
+      "Tom Verguts",
+      "Eliana Vassena",
+      "Massimo Silvetti"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2015.00057",
+    "citation_count": 132,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2161802750",
+    "title": "Microstructural Abnormalities in Subcortical Reward Circuitry of Subjects with Major Depressive Disorder",
+    "authors": [
+      "Anne J. Blood",
+      "Dan V. Iosifescu",
+      "Nikos Makris",
+      "Roy H. Perlis",
+      "David N. Kennedy",
+      "Darin D. Dougherty",
+      "Byoung Woo Kim",
+      "Myung J. Lee",
+      "Shirley Wu",
+      "Sang Lee",
+      "Jesse Calhoun",
+      "Steven M. Hodge"
+    ],
+    "year": 2010,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0013945",
+    "citation_count": 128,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2520703908",
+    "title": "Lipopolysaccharide Alters Motivated Behavior in a Monetary Reward Task: a Randomized Trial",
+    "authors": [
+      "Julie Lasselin",
+      "Michael T. Treadway",
+      "Tamara E. Lacourt",
+      "Anne Soop",
+      "Mats J. Olsson",
+      "Bianka Karshikoff",
+      "Sofie Paues G\u00f6ranson",
+      "John Axelsson",
+      "Robert Dantzer",
+      "Mats Lekander"
+    ],
+    "year": 2016,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2016.191",
+    "citation_count": 125,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2102225001",
+    "title": "Effort-Based Decision-Making Paradigms for Clinical Trials in Schizophrenia: Part 2\u2014External Validity and Correlates",
+    "authors": [
+      "William P. Horan",
+      "L. Felice Reddy",
+      "Deanna M. Barch",
+      "Robert W. Buchanan",
+      "Eduardo Dunayevich",
+      "James M. Gold",
+      "Steven R. Marder",
+      "Jonathan K. Wynn",
+      "Jared W. Young",
+      "Michael F. Green"
+    ],
+    "year": 2015,
+    "journal": "Schizophrenia Bulletin",
+    "doi_or_url": "https://doi.org/10.1093/schbul/sbv090",
+    "citation_count": 109,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4391997406",
+    "title": "Deep phenotyping of post-infectious myalgic encephalomyelitis/chronic fatigue syndrome",
+    "authors": [
+      "Brian Walitt",
+      "Komudi Singh",
+      "Samuel R. LaMunion",
+      "Mark Hallett",
+      "Steve Jacobson",
+      "Kong Y. Chen",
+      "Yoshimi Enose\u2010Akahata",
+      "Richard Apps",
+      "Jennifer J. Barb",
+      "Patrick B\u00e9dard",
+      "Robert J. Brychta",
+      "Ashura Buckley"
+    ],
+    "year": 2024,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-024-45107-3",
+    "citation_count": 108,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1993869710",
+    "title": "The VMAT-2 Inhibitor Tetrabenazine Affects Effort-Related Decision Making in a Progressive Ratio/Chow Feeding Choice Task: Reversal with Antidepressant Drugs",
+    "authors": [
+      "Patrick A. Randall",
+      "Christie A. Lee",
+      "Eric J. Nunes",
+      "Samantha E. Yohn",
+      "Victoria Nowak",
+      "Bilal Khan",
+      "Priya S. Shah",
+      "Saagar Pandit",
+      "Kiran Vemuri",
+      "A. Makriyannis",
+      "Younis Baqi",
+      "Christa E. M\u00fcller"
+    ],
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0099320",
+    "citation_count": 107,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2097963977",
+    "title": "Sensitivity to Cognitive Effort Mediates Psychostimulant Effects on a Novel Rodent Cost/Benefit Decision-Making Task",
+    "authors": [
+      "Paul J. Cocker",
+      "Jay G. Hosking",
+      "James Benoit",
+      "Catharine A. Winstanley"
+    ],
+    "year": 2012,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2012.30",
+    "citation_count": 105,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2403484840",
+    "title": "Anhedonia and general distress show dissociable ventromedial prefrontal cortex connectivity in major depressive disorder",
+    "authors": [
+      "Christina B. Young",
+      "T. Chen",
+      "Robin Nusslock",
+      "Jennifer Keller",
+      "Alan F. Schatzberg",
+      "Vinod Menon"
+    ],
+    "year": 2016,
+    "journal": "Translational Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/tp.2016.80",
+    "citation_count": 102,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2170827061",
+    "title": "Assessment of reward responsiveness in the response bias probabilistic reward task in rats: implications for cross-species translational research",
+    "authors": [
+      "Andre Der\u2010Avakian",
+      "Manoranjan S. D\u2019Souza",
+      "Diego A. Pizzagalli",
+      "A. Markou"
+    ],
+    "year": 2013,
+    "journal": "Translational Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/tp.2013.74",
+    "citation_count": 98,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4289766510",
+    "title": "Functional connectivity in reward circuitry and symptoms of anhedonia as therapeutic targets in depression with high inflammation: evidence from a dopamine challenge study",
+    "authors": [
+      "Mandakh Bekhbat",
+      "Zhihao Li",
+      "Namrataa D. Mehta",
+      "Michael T. Treadway",
+      "Michael J. Lucido",
+      "Bobbi J. Woolwine",
+      "Ebrahim Haroon",
+      "Andrew H. Miller",
+      "Jennifer C. Felger"
+    ],
+    "year": 2022,
+    "journal": "Molecular Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/s41380-022-01715-3",
+    "citation_count": 94,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2121651835",
+    "title": "Adults with autism spectrum disorders exhibit decreased sensitivity to reward parameters when making effort-based decisions",
+    "authors": [
+      "Cara R. Damiano",
+      "Joseph Aloi",
+      "Michael T. Treadway",
+      "James W. Bodfish",
+      "Gabriel S. Dichter"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neurodevelopmental Disorders",
+    "doi_or_url": "https://doi.org/10.1186/1866-1955-4-13",
+    "citation_count": 88,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2740412125",
+    "title": "Physical and cognitive effort discounting across different reward magnitudes: Tests of discounting models",
+    "authors": [
+      "Wojciech Bia\u0142aszek",
+      "Przemys\u0142aw Marcowski",
+      "Pawe\u0142 Ostaszewski"
+    ],
+    "year": 2017,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0182353",
+    "citation_count": 86,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1986187532",
+    "title": "Lipopolysaccharide Reduces Incentive Motivation While Boosting Preference for High Reward in Mice",
+    "authors": [
+      "Elisabeth G. Vichaya",
+      "Sarah C Hunt",
+      "Robert Dantzer"
+    ],
+    "year": 2014,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/npp.2014.141",
+    "citation_count": 86,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2795222640",
+    "title": "Relationships between anhedonia, suicidal ideation and suicide attempts in a large sample of physicians",
+    "authors": [
+      "Gwenol\u00e9 Loas",
+      "Guillaume Lefebvre",
+      "Marianne Rotsaert",
+      "Yvon Englert"
+    ],
+    "year": 2018,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0193619",
+    "citation_count": 75,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2807547917",
+    "title": "Quantifying the Motivational Effects of Cognitive Fatigue Through Effort-Based Decision Making",
+    "authors": [
+      "Stijn A. A. Massar",
+      "\u00c1rp\u00e1d Csath\u00f3",
+      "Dimitri van der Linden"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2018.00843",
+    "citation_count": 68,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2921205077",
+    "title": "The transdiagnostic structure of mental effort avoidance",
+    "authors": [
+      "Edward H. Patzelt",
+      "Wouter Kool",
+      "Alexander J. Millner",
+      "Samuel J. Gershman"
+    ],
+    "year": 2019,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-018-37802-1",
+    "citation_count": 65,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3118196774",
+    "title": "The effort-doors task: Examining the temporal dynamics of effort-based reward processing using ERPs",
+    "authors": [
+      "Colin B. Bowyer",
+      "Christopher J. Brush",
+      "Hunter Threadgill",
+      "Eddie Harmon\u2010Jones",
+      "Michael T. Treadway",
+      "Christopher J. Patrick",
+      "Greg Hajcak"
+    ],
+    "year": 2021,
+    "journal": "NeuroImage",
+    "doi_or_url": "https://doi.org/10.1016/j.neuroimage.2020.117656",
+    "citation_count": 64,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3045658886",
+    "title": "Dose-response effects of d-amphetamine on effort-based decision-making and reinforcement learning",
+    "authors": [
+      "Heather E. Soder",
+      "Jessica Cooper",
+      "Paula Lopez-Gamundi",
+      "Jennifer K. Hoots",
+      "Cecilia Nunez",
+      "Victoria M. Lawlor",
+      "Scott D. Lane",
+      "Michael T. Treadway",
+      "Margaret C. Wardle"
+    ],
+    "year": 2020,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/s41386-020-0779-8",
+    "citation_count": 61,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2953220225",
+    "title": "Does Tobacco Abstinence Decrease Reward Sensitivity? A Human Laboratory Test",
+    "authors": [
+      "John R. Hughes",
+      "Alan J. Budney",
+      "Sharon R. Muellers",
+      "Dustin C. Lee",
+      "Peter Callas",
+      "Stacey C. Sigmon",
+      "James R. Fingar",
+      "Jeff S. Priest"
+    ],
+    "year": 2017,
+    "journal": "Nicotine & Tobacco Research",
+    "doi_or_url": "https://doi.org/10.1093/ntr/ntw204",
+    "citation_count": 60,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3092440800",
+    "title": "The Sense of Effort: a Cost-Benefit Theory of the Phenomenology of Mental Effort",
+    "authors": [
+      "Marcell Sz\u00e9kely",
+      "John Michael"
+    ],
+    "year": 2020,
+    "journal": "Review of Philosophy and Psychology",
+    "doi_or_url": "https://doi.org/10.1007/s13164-020-00512-7",
+    "citation_count": 52,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3014329939",
+    "title": "The role of dopamine in dynamic effort-reward integration",
+    "authors": [
+      "Jochen Michely",
+      "Shivakumar Viswanathan",
+      "Tobias U. Hauser",
+      "Laura Delker",
+      "Raymond J. Dolan",
+      "Christian Grefkes"
+    ],
+    "year": 2020,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/s41386-020-0669-0",
+    "citation_count": 52,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2099641681",
+    "title": "A comparative study of anhedonia components between major depression and schizophrenia in Chinese populations",
+    "authors": [
+      "Yinghui Li",
+      "Xiaodong Mou",
+      "Wenhao Jiang",
+      "Zhong Yang",
+      "Xinhua Shen",
+      "Zhuma Jin",
+      "Dai Zhiping",
+      "Yuju Liu",
+      "Shengqin Mao",
+      "Jian Zhang",
+      "Yonggui Yuan"
+    ],
+    "year": 2015,
+    "journal": "Annals of General Psychiatry",
+    "doi_or_url": "https://doi.org/10.1186/s12991-015-0061-3",
+    "citation_count": 50,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1408976098",
+    "title": "Trait Anticipatory Pleasure Predicts Effort Expenditure for Reward",
+    "authors": [
+      "Joachim T. Geaney",
+      "Michael T. Treadway",
+      "Luke D. Smillie"
+    ],
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0131357",
+    "citation_count": 50,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2078343558",
+    "title": "Anhedonia in Unipolar Major Depressive Disorder: A Review~!2009-10-26~!2010-02-18~!2010-04-08~!",
+    "authors": [
+      "Gabriel S. Dichter"
+    ],
+    "year": 2010,
+    "journal": "The Open Psychiatry Journal",
+    "doi_or_url": "https://doi.org/10.2174/1874354401004010001",
+    "citation_count": 47,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3206972157",
+    "title": "Mindfulness-Oriented Recovery Enhancement remediates anhedonia in chronic opioid use by enhancing neurophysiological responses during savoring of natural rewards",
+    "authors": [
+      "Eric L. Garland",
+      "Spencer T. Fix",
+      "Justin Hudak",
+      "Edward M. Bernat",
+      "Yoshio Nakamura",
+      "Adam W. Hanley",
+      "Gary Donaldson",
+      "William R. Marchand",
+      "Brett Froeliger"
+    ],
+    "year": 2021,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s0033291721003834",
+    "citation_count": 46,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2805668192",
+    "title": "The feeling of effort during mental activity",
+    "authors": [
+      "Erik Bijleveld"
+    ],
+    "year": 2018,
+    "journal": "Consciousness and Cognition",
+    "doi_or_url": "https://doi.org/10.1016/j.concog.2018.05.013",
+    "citation_count": 45,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3048509239",
+    "title": "Empirical validation of a touchscreen probabilistic reward task in rats",
+    "authors": [
+      "Brian D. Kangas",
+      "Lisa M. Wooldridge",
+      "Oanh T. Luc",
+      "Jack Bergman",
+      "Diego A. Pizzagalli"
+    ],
+    "year": 2020,
+    "journal": "Translational Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/s41398-020-00969-1",
+    "citation_count": 45,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2206012703",
+    "title": "Is it Worth the Effort? Novel Insights into Obesity-Associated Alterations in Cost-Benefit Decision-Making",
+    "authors": [
+      "David Mathar",
+      "Annette Horstmann",
+      "Burkhard Pleger",
+      "Arno Villringer",
+      "Jane Neumann"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2015.00360",
+    "citation_count": 43,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2792059013",
+    "title": "Integration of reward with cost anticipation during performance monitoring revealed by ERPs and EEG spectral perturbations",
+    "authors": [
+      "Davide Gheza",
+      "Rudi De Raedt",
+      "Chris Baeken",
+      "Gilles Pourtois"
+    ],
+    "year": 2018,
+    "journal": "NeuroImage",
+    "doi_or_url": "https://doi.org/10.1016/j.neuroimage.2018.02.049",
+    "citation_count": 43,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2083888662",
+    "title": "Asymmetric frontal cortical activity predicts effort expenditure for reward",
+    "authors": [
+      "David M. Hughes",
+      "Mark Yates",
+      "Emma Morton",
+      "Luke D. Smillie"
+    ],
+    "year": 2014,
+    "journal": "Social Cognitive and Affective Neuroscience",
+    "doi_or_url": "https://doi.org/10.1093/scan/nsu149",
+    "citation_count": 42,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3157822237",
+    "title": "Effect of transcranial direct current stimulation on the psychomotor, cognitive, and motor performances of power athletes",
+    "authors": [
+      "Sidney Grospr\u00eatre",
+      "Yohan Grandperrin",
+      "Magali Nicolier",
+      "Philippe Gimenez",
+      "Chrystelle Vidal",
+      "Gr\u00e9gory Tio",
+      "\u00c9mmanuel Haffen",
+      "Djamila Bennabi"
+    ],
+    "year": 2021,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-021-89159-7",
+    "citation_count": 42,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2886965347",
+    "title": "Individual Differences in Dopamine Are Associated with Reward Discounting in Clinical Groups But Not in Healthy Adults",
+    "authors": [
+      "Jaime J. Castrellon",
+      "Kendra Leigh Seaman",
+      "Jennifer L. Crawford",
+      "Jacob S. Young",
+      "Christopher T. Smith",
+      "Linh C. Dang",
+      "Ming Hsu",
+      "Ronald L. Cowan",
+      "David H. Zald",
+      "Gregory R. Samanez\u2010Larkin"
+    ],
+    "year": 2018,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1984-18.2018",
+    "citation_count": 41,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2746687279",
+    "title": "Prospective Relationships Between Motivation and Functioning in Recovery After a First Episode of Schizophrenia",
+    "authors": [
+      "Daniel Fulford",
+      "Danijela Pi\u0161kuli\u0107",
+      "Jean Addington",
+      "John M. Kane",
+      "Nina R. Schooler",
+      "Kim T. Mueser"
+    ],
+    "year": 2017,
+    "journal": "Schizophrenia Bulletin",
+    "doi_or_url": "https://doi.org/10.1093/schbul/sbx096",
+    "citation_count": 39,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2100455148",
+    "title": "Reward processing in autism: a thematic series",
+    "authors": [
+      "Gabriel S. Dichter",
+      "Ralph Adolphs"
+    ],
+    "year": 2012,
+    "journal": "Journal of Neurodevelopmental Disorders",
+    "doi_or_url": "https://doi.org/10.1186/1866-1955-4-20",
+    "citation_count": 38,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3134841657",
+    "title": "Effort-Optimized Intervention Model: Framework for Building and Analyzing Digital Interventions That Require Minimal Effort for Health-Related Gains",
+    "authors": [
+      "Amit Baumel",
+      "Frederick Muench"
+    ],
+    "year": 2021,
+    "journal": "Journal of Medical Internet Research",
+    "doi_or_url": "https://doi.org/10.2196/24905",
+    "citation_count": 38,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3130216128",
+    "title": "Chronic non-discriminatory social defeat stress reduces effort-related motivated behaviors in male and female mice",
+    "authors": [
+      "Andrew Dieterich",
+      "Tonia Liu",
+      "Benjamin A. Samuels"
+    ],
+    "year": 2021,
+    "journal": "Translational Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/s41398-021-01250-9",
+    "citation_count": 37,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4386162763",
+    "title": "Negative symptoms and cognitive impairment are associated with distinct motivational deficits in treatment resistant schizophrenia",
+    "authors": [
+      "Yazid Saleh",
+      "Isaac Jarratt Barnham",
+      "Pierre Petitet",
+      "Emilio Fern\u00e1ndez-Egea",
+      "S. G. Manohar",
+      "Masud Husain"
+    ],
+    "year": 2023,
+    "journal": "Molecular Psychiatry",
+    "doi_or_url": "https://doi.org/10.1038/s41380-023-02232-7",
+    "citation_count": 37,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2742672954",
+    "title": "Reduced Willingness to Expend Effort for Reward in Obesity: Link to Adherence to a 3\u2010Month Weight Loss Intervention",
+    "authors": [
+      "Fernanda Mata",
+      "Michael T. Treadway",
+      "Alastair Kwok",
+      "Helen Truby",
+      "Murat Y\u00fccel",
+      "Julie C. Stout",
+      "Antonio Verdejo\u2010Garc\u00eda"
+    ],
+    "year": 2017,
+    "journal": "Obesity",
+    "doi_or_url": "https://doi.org/10.1002/oby.21948",
+    "citation_count": 28,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2980714810",
+    "title": "Strive to Win or Not to Lose? Age-Related Differences in Framing Effects on Effort-Based Decision-Making",
+    "authors": [
+      "Kaileigh A. Byrne",
+      "Reza Ghaiumy Anaraky"
+    ],
+    "year": 2019,
+    "journal": "The Journals of Gerontology Series B",
+    "doi_or_url": "https://doi.org/10.1093/geronb/gbz136",
+    "citation_count": 28,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3127047424",
+    "title": "Motivational differences in unipolar and bipolar depression, manic bipolar, acute and stable phase schizophrenia",
+    "authors": [
+      "Xinhua Yang",
+      "Jia Huang",
+      "Phillippa Harrision",
+      "Matthew E. Roser",
+      "Kai Tian",
+      "Dongfang Wang",
+      "Guangya Liu"
+    ],
+    "year": 2021,
+    "journal": "Journal of Affective Disorders",
+    "doi_or_url": "https://doi.org/10.1016/j.jad.2021.01.075",
+    "citation_count": 28,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2773593970",
+    "title": "Cognitive bias modification for facial interpretation: a randomized controlled trial of transfer to self-report and cognitive measures in a healthy sample",
+    "authors": [
+      "Suzanne E. Peters",
+      "Jim Lumsden",
+      "Oon Him Peh",
+      "Ian S. Penton\u2010Voak",
+      "Marcus R. Munaf\u00f2",
+      "Oliver J. Robinson"
+    ],
+    "year": 2017,
+    "journal": "Royal Society Open Science",
+    "doi_or_url": "https://doi.org/10.1098/rsos.170681",
+    "citation_count": 27,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4200579960",
+    "title": "Neurocomputational mechanisms underlying the subjective value of information",
+    "authors": [
+      "Ariel Xiao-An Goh",
+      "Daniel Bennett",
+      "Stefan Bode",
+      "Trevor T.\u2010J. Chong"
+    ],
+    "year": 2021,
+    "journal": "Communications Biology",
+    "doi_or_url": "https://doi.org/10.1038/s42003-021-02850-3",
+    "citation_count": 26,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2591638414",
+    "title": "Struggling toward reward: Recent experience of anhedonia interacts with motivation to predict reward pursuit in the face of a stressful manipulation",
+    "authors": [
+      "Jessica Bryant",
+      "E. Samuel Winer",
+      "Taban Salem",
+      "Michael R. Nadorff"
+    ],
+    "year": 2017,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0173439",
+    "citation_count": 26,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3035030051",
+    "title": "Motivation and sensitivity to monetary reward in late-life insomnia: moderating role of sex and the inflammatory marker CRP",
+    "authors": [
+      "Chloe C. Boyle",
+      "Hyong Jin Cho",
+      "Naomi I. Eisenberger",
+      "Richard Olmstead",
+      "Dominique Piber",
+      "Nina Sadeghi",
+      "Masih Tazhibi",
+      "Michael R. Irwin"
+    ],
+    "year": 2020,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/s41386-020-0735-7",
+    "citation_count": 25,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2118665047",
+    "title": "Effort responses to suboptimal reward cues are related to striatal dopaminergic functioning",
+    "authors": [
+      "Pascal Pas",
+      "Ruud Custers",
+      "Erik Bijleveld",
+      "Matthijs Vink"
+    ],
+    "year": 2014,
+    "journal": "Motivation and Emotion",
+    "doi_or_url": "https://doi.org/10.1007/s11031-014-9434-1",
+    "citation_count": 24,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4281746246",
+    "title": "Altered motivation of effortful decision\u2010making for self and others in subthreshold depression",
+    "authors": [
+      "Bi Rong",
+      "Wanxin Dong",
+      "Zixin Zheng",
+      "Sijin Li",
+      "Dandan Zhang"
+    ],
+    "year": 2022,
+    "journal": "Depression and Anxiety",
+    "doi_or_url": "https://doi.org/10.1002/da.23267",
+    "citation_count": 23,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3203048930",
+    "title": "Relationship of ventral striatum activation during effort discounting to clinical amotivation severity in schizophrenia",
+    "authors": [
+      "Greer Prettyman",
+      "Joseph W. Kable",
+      "Paige Didier",
+      "Sheila Shankar",
+      "Theodore D. Satterthwaite",
+      "Christos Davatzikos",
+      "Warren B. Bilker",
+      "Mark A. Elliott",
+      "Kosha Ruparel",
+      "Daniel H. Wolf"
+    ],
+    "year": 2021,
+    "journal": "Schizophrenia",
+    "doi_or_url": "https://doi.org/10.1038/s41537-021-00178-9",
+    "citation_count": 23,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2943590629",
+    "title": "Worth working for: The influence of effort costs on teens\u2019 choices during a novel decision making game",
+    "authors": [
+      "Holly Sullivan\u2010Toole",
+      "Samantha DePasque",
+      "Bailey Holt-Gosselin",
+      "Adriana Galv\u00e1n"
+    ],
+    "year": 2019,
+    "journal": "Developmental Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1016/j.dcn.2019.100652",
+    "citation_count": 23,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4251331760",
+    "title": "Marijuana Use Grid: A Brief, Comprehensive Measure of Marijuana Use",
+    "authors": [
+      "Jude Chavez",
+      "Matthew Pearson"
+    ],
+    "year": 2021,
+    "journal": "Unknown",
+    "doi_or_url": "https://doi.org/10.26828/cannabis.2021.01.000.14",
+    "citation_count": 22,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4313530298",
+    "title": "Think green: Investing cognitive effort for a pro-environmental cause",
+    "authors": [
+      "Ruth M. Krebs",
+      "Arthur Pr\u00e9vel",
+      "Julie M. Hall",
+      "Vincent Hoofs"
+    ],
+    "year": 2022,
+    "journal": "Journal of Environmental Psychology",
+    "doi_or_url": "https://doi.org/10.1016/j.jenvp.2022.101946",
+    "citation_count": 22,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4280581945",
+    "title": "Objective measures of reward sensitivity and motivation in people with high <i>v.</i> low anhedonia",
+    "authors": [
+      "Chloe Slaney",
+      "Adam M. Perkins",
+      "Robert E. Davis",
+      "Ian S. Penton\u2010Voak",
+      "Marcus R. Munaf\u00f2",
+      "Conor Houghton",
+      "Emma Susan Jane Robinson"
+    ],
+    "year": 2022,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s0033291722001052",
+    "citation_count": 22,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3092565165",
+    "title": "Dissociable mechanisms underpinning effort-cost decision-making across the psychosis spectrum",
+    "authors": [
+      "Alexis E. Whitton",
+      "Jaisal Merchant",
+      "Kathryn E. Lewandowski"
+    ],
+    "year": 2020,
+    "journal": "Schizophrenia Research",
+    "doi_or_url": "https://doi.org/10.1016/j.schres.2020.09.014",
+    "citation_count": 20,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2968497820",
+    "title": "Lost in Translation? On the Need for Convergence in Animal and Human Studies on the Role of Dopamine in Diet-Induced Obesity",
+    "authors": [
+      "Lieneke Janssen",
+      "Nadine Herzog",
+      "Maria Waltmann",
+      "Nora Breuer",
+      "Kathleen Wiencke",
+      "Franziska Rausch",
+      "Hendrik Hartmann",
+      "Maria Poessel",
+      "Annette Horstmann"
+    ],
+    "year": 2019,
+    "journal": "Current Addiction Reports",
+    "doi_or_url": "https://doi.org/10.1007/s40429-019-00268-w",
+    "citation_count": 20,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2889119551",
+    "title": "Enhanced motivation of cognitive control in Parkinson's disease",
+    "authors": [
+      "Monique H.M. Timmer",
+      "Esther Aarts",
+      "Rianne A.J. Esselink",
+      "Roshan Cools"
+    ],
+    "year": 2018,
+    "journal": "European Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1111/ejn.14137",
+    "citation_count": 19,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2914387480",
+    "title": "Temporal and Effort cost Decision-making in Healthy Individuals with Subclinical Psychotic Symptoms",
+    "authors": [
+      "Damiano Terenzi",
+      "Elena Mainetto",
+      "Mariapaola Barbato",
+      "Raffaella I. Rumiati",
+      "Marilena Aiello"
+    ],
+    "year": 2019,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-018-38284-x",
+    "citation_count": 19,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4391613837",
+    "title": "Does effort increase or decrease reward valuation? Considerations from cognitive dissonance theory",
+    "authors": [
+      "Eddie Harmon\u2010Jones",
+      "Sophie Matis",
+      "Douglas J. Angus",
+      "Cindy Harmon\u2010Jones"
+    ],
+    "year": 2024,
+    "journal": "Psychophysiology",
+    "doi_or_url": "https://doi.org/10.1111/psyp.14536",
+    "citation_count": 19,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2792866589",
+    "title": "Trends in the Study of Motivation in Schizophrenia: A Bibliometric Analysis of Six Decades of Research (1956\u20132017)",
+    "authors": [
+      "Antonia Najas-Garc\u00eda",
+      "Viviana R. Carmona",
+      "Juana G\u00f3mez\u2010Benito"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2018.00063",
+    "citation_count": 19,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4220746370",
+    "title": "Mesolimbic Neurobehavioral Mechanisms of Reward Motivation in Anorexia Nervosa: A Multimodal Imaging Study",
+    "authors": [
+      "Reza Tadayonnejad",
+      "D.S. Adnan Majid",
+      "Evangelia Tsolaki",
+      "Riddhi Rane",
+      "Huan Wang",
+      "Teena D. Moody",
+      "Wolfgang M. Pauli",
+      "Nader Pouratian",
+      "Ausaf Bari",
+      "Stuart B. Murray",
+      "John P. O\u2019Doherty",
+      "Jamie D. Feusner"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2022.806327",
+    "citation_count": 18,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2972404795",
+    "title": "The Aging Brain &amp; the Dorsal Basal Ganglia: Implications for Age-Related Limitations of Mobility",
+    "authors": [
+      "Brian C. Clark",
+      "Adam J. Woods",
+      "Leatha A. Clark",
+      "Cody R. Criss",
+      "Reza Shadmehr",
+      "Dustin R. Grooms"
+    ],
+    "year": 2019,
+    "journal": "Advances in Geriatric Medicine and Research",
+    "doi_or_url": "https://doi.org/10.20900/agmr20190008",
+    "citation_count": 18,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2779250705",
+    "title": "Translational approaches to evaluating motivation in laboratory rodents: conventional and touchscreen-based procedures",
+    "authors": [
+      "Benjamin U. Phillips",
+      "Laura L\u00f3pez\u2010Cruz",
+      "Jonathan M. Hailwood",
+      "Christopher J. Heath",
+      "Lisa M. Saksida",
+      "Timothy J. Bussey"
+    ],
+    "year": 2018,
+    "journal": "Current Opinion in Behavioral Sciences",
+    "doi_or_url": "https://doi.org/10.1016/j.cobeha.2017.12.008",
+    "citation_count": 17,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4366331203",
+    "title": "Resting-state functional connectivity disruption between the left and right pallidum as a biomarker for subthreshold depression",
+    "authors": [
+      "Yosuke Sato",
+      "Go Okada",
+      "Satoshi Yokoyama",
+      "Naho Ichikawa",
+      "Masahiro Takamura",
+      "Yuki Mitsuyama",
+      "Ayaka Shimizu",
+      "Eri Itai",
+      "Hotaka Shinzato",
+      "Mitsuo Kawato",
+      "Noriaki Yahata",
+      "Yasumasa Okamoto"
+    ],
+    "year": 2023,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-023-33077-3",
+    "citation_count": 17,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3128093273",
+    "title": "Domain-general cognitive motivation: evidence from economic decision-making",
+    "authors": [
+      "Jennifer L. Crawford",
+      "Sarah A. Eisenstein",
+      "Jonathan E. Peelle",
+      "Todd S. Braver"
+    ],
+    "year": 2021,
+    "journal": "Cognitive Research Principles and Implications",
+    "doi_or_url": "https://doi.org/10.1186/s41235-021-00272-7",
+    "citation_count": 17,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3022905665",
+    "title": "Event-Related Potentials (ERP) Indices of Motivation during the Effort Expenditure for Reward Task",
+    "authors": [
+      "Julie Giustiniani",
+      "Magali Nicolier",
+      "Juliana Teti Mayer",
+      "Thibault Chabin",
+      "Caroline Masse",
+      "Nathan Galm\u00e8s",
+      "Lionel Pazart",
+      "Michel Beno\u00eet",
+      "Djamila Bennabi",
+      "Pierre Vandel",
+      "\u00c9mmanuel Haffen",
+      "Damien Gabriel"
+    ],
+    "year": 2020,
+    "journal": "Brain Sciences",
+    "doi_or_url": "https://doi.org/10.3390/brainsci10050283",
+    "citation_count": 17,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4220663478",
+    "title": "Domain-general cognitive motivation: Evidence from economic decision-making \u2013 Final Registered Report",
+    "authors": [
+      "Jennifer L. Crawford",
+      "Sarah A. Eisenstein",
+      "Jonathan E. Peelle",
+      "Todd S. Braver"
+    ],
+    "year": 2022,
+    "journal": "Cognitive Research Principles and Implications",
+    "doi_or_url": "https://doi.org/10.1186/s41235-022-00363-z",
+    "citation_count": 16,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4385703631",
+    "title": "Are gender-science stereotypes barriers for women in science, technology, engineering, and mathematics? Exploring when, how, and to whom in an experimentally-controlled setting",
+    "authors": [
+      "Alba Sebasti\u00e1n-Tirado",
+      "Sonia F\u00e9lix-Esbr\u00ed",
+      "Cristina Forn",
+      "Carles Sanchis\u2010Segura"
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2023.1219012",
+    "citation_count": 16,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4388487985",
+    "title": "Restricting social networking site use for one week produces varied effects on mood but does not increase explicit or implicit desires to use SNSs: Findings from an ecological momentary assessment study",
+    "authors": [
+      "Michael Wadsley",
+      "Niklas Ihssen"
+    ],
+    "year": 2023,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0293467",
+    "citation_count": 16,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2175265594",
+    "title": "The ability of early changes in motivation to predict later antidepressant treatment response",
+    "authors": [
+      "Isabelle Gauthier",
+      "Philippe Courtet",
+      "Guillaume Va\u00efva",
+      "Emmanuelle Corruble",
+      "Pierre\u2010Michel Llorca",
+      "Franck Bayl\u00e9",
+      "Philip Gorwood"
+    ],
+    "year": 2015,
+    "journal": "Neuropsychiatric Disease and Treatment",
+    "doi_or_url": "https://doi.org/10.2147/ndt.s92795",
+    "citation_count": 15,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2593131655",
+    "title": "Vigour in active avoidance",
+    "authors": [
+      "Camilla L. Nord",
+      "Gita Prabhu",
+      "Tobias Nolte",
+      "Peter Fonagy",
+      "Raymond J. Dolan",
+      "Michael Moutoussis"
+    ],
+    "year": 2017,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-017-00127-6",
+    "citation_count": 15,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3160273337",
+    "title": "Emotional bias training as a treatment for anxiety and depression: evidence from experimental medicine studies in healthy and medicated samples",
+    "authors": [
+      "Steph Suddell",
+      "Maren M\u00fcller-Glodde",
+      "Jim Lumsden",
+      "Chung Yen Looi",
+      "Kiri Granger",
+      "Jennifer H. Barnett",
+      "Oliver J. Robinson",
+      "Marcus R. Munaf\u00f2",
+      "Ian S. Penton\u2010Voak"
+    ],
+    "year": 2021,
+    "journal": "Psychological Medicine",
+    "doi_or_url": "https://doi.org/10.1017/s0033291721002014",
+    "citation_count": 15,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3028934666",
+    "title": "Effect of transcranial direct current stimulation on sports performance for two profiles of athletes (power and endurance) (COMPETE): a protocol for a randomised, crossover, double blind, controlled exploratory trial",
+    "authors": [
+      "Yohan Grandperrin",
+      "Sidney Grospr\u00eatre",
+      "Magali Nicolier",
+      "Philippe Gimenez",
+      "Chrystelle Vidal",
+      "\u00c9mmanuel Haffen",
+      "Djamila Bennabi"
+    ],
+    "year": 2020,
+    "journal": "Trials",
+    "doi_or_url": "https://doi.org/10.1186/s13063-020-04412-0",
+    "citation_count": 15,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4220837287",
+    "title": "The Convergence Model of Brain Reward Circuitry: Implications for Relief of Treatment-Resistant Depression by Deep-Brain Stimulation of the Medial Forebrain Bundle",
+    "authors": [
+      "Vasilios Pallikaras",
+      "Peter Shizgal"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2022.851067",
+    "citation_count": 14,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3162736733",
+    "title": "Does openness/intellect predict sensitivity to the reward value of information?",
+    "authors": [
+      "Luke D. Smillie",
+      "Daniel Bennett",
+      "Nicholas Poh\u2010Jie Tan",
+      "Kiran Sutcliffe",
+      "Kirill Fayn",
+      "Stefan Bode",
+      "Jan Wacker"
+    ],
+    "year": 2021,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-021-00900-1",
+    "citation_count": 13,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3174583390",
+    "title": "Computerized Assessment of Psychosis Risk",
+    "authors": [
+      "Vijay A. Mittal",
+      "Lauren M. Ellman",
+      "Gregory P. Strauss",
+      "Elaine F. Walker",
+      "Philip R. Corlett",
+      "Jason Schiffman",
+      "Scott W. Woods",
+      "Albert R. Powers",
+      "Steven M. Silverstein",
+      "James A. Waltz",
+      "Richard E. Zinbarg",
+      "Shuo Chen"
+    ],
+    "year": 2021,
+    "journal": "Journal of Psychiatry and Brain Science",
+    "doi_or_url": "https://doi.org/10.20900/jpbs.20210011",
+    "citation_count": 13,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3005867673",
+    "title": "A Neurofunctional Domains Approach to Evaluate D1/D5 Dopamine Receptor Partial Agonism on Cognition and Motivation in Healthy Volunteers With Low Working Memory Capacity",
+    "authors": [
+      "Rita J. Balice\u2010Gordon",
+      "G.D. Honey",
+      "Christopher H. Chatham",
+      "Est\u00edbaliz Arce",
+      "Sridhar Duvvuri",
+      "Melissa Naylor",
+      "Wenlei Liu",
+      "Zhiyong Xie",
+      "Nicholas DeMartinis",
+      "Brian Harel",
+      "Gabriel Braley",
+      "Rouba Kozak"
+    ],
+    "year": 2020,
+    "journal": "The International Journal of Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1093/ijnp/pyaa007",
+    "citation_count": 12,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3026296954",
+    "title": "Dissociating self-generated volition from externally-generated motivation",
+    "authors": [
+      "Laurel Morris",
+      "Agnes Norbury",
+      "D. Smith",
+      "Neil A. Harrison",
+      "Valerie Voon",
+      "James W. Murrough"
+    ],
+    "year": 2020,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0232949",
+    "citation_count": 12,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1701382504",
+    "title": "Effect of Social Influence on Effort-Allocation for Monetary Rewards",
+    "authors": [
+      "Jodi M. Gilman",
+      "Michael T. Treadway",
+      "Max T. Curran",
+      "Vanessa Calderon",
+      "A. Eden Evins"
+    ],
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0126656",
+    "citation_count": 11,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2731238255",
+    "title": "Preferences for Temporal Sequences of Real Outcomes Differ Across Domains but do not Vary by Age",
+    "authors": [
+      "Corinna E. L\u00f6ckenhoff",
+      "Joshua L. Rutt",
+      "Gregory R. Samanez\u2010Larkin",
+      "Ted O\u2019Donoghue",
+      "Valerie F. Reyna"
+    ],
+    "year": 2017,
+    "journal": "The Journals of Gerontology Series B",
+    "doi_or_url": "https://doi.org/10.1093/geronb/gbx094",
+    "citation_count": 11,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4388727400",
+    "title": "Need for cognition moderates the relief of avoiding cognitive effort",
+    "authors": [
+      "Davide Gheza",
+      "Wouter Kool",
+      "Gilles Pourtois"
+    ],
+    "year": 2023,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0287954",
+    "citation_count": 11,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3027713425",
+    "title": "Behavioral and Neural Arguments of Motivational Influence on Decision Making During Uncertainty",
+    "authors": [
+      "Julie Giustiniani",
+      "Magali Nicolier",
+      "Juliana Teti Mayer",
+      "Thibault Chabin",
+      "Caroline Masse",
+      "Nathan Galm\u00e8s",
+      "Lionel Pazart",
+      "Michel Beno\u00eet",
+      "Djamila Bennabi",
+      "Pierre Vandel",
+      "\u00c9mmanuel Haffen",
+      "Damien Gabriel"
+    ],
+    "year": 2020,
+    "journal": "Frontiers in Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnins.2020.00583",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3037320319",
+    "title": "A low dosage of the dopamine D2-receptor antagonist sulpiride affects effort allocation for reward regardless of trait extraversion",
+    "authors": [
+      "Hanno Andreas Ohmann",
+      "Niclas Kuper",
+      "Jan Wacker"
+    ],
+    "year": 2020,
+    "journal": "Personality Neuroscience",
+    "doi_or_url": "https://doi.org/10.1017/pen.2020.7",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4386415921",
+    "title": "Transdiagnostic considerations of the relationship between reward sensitivity and psychopathological symptoms - a cross-lagged panel analysis",
+    "authors": [
+      "L. Potsch",
+      "Winfried Rief"
+    ],
+    "year": 2023,
+    "journal": "BMC Psychiatry",
+    "doi_or_url": "https://doi.org/10.1186/s12888-023-05139-3",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2990152078",
+    "title": "Augmentation of Positive Valence System\u2013Focused Cognitive Behavioral Therapy by Inaudible High-Frequency Sounds for Anhedonia",
+    "authors": [
+      "Masaya Ito",
+      "Mitsuhiro Miyamae",
+      "Chika Yokoyama",
+      "Yuichi Yamashita",
+      "Osamu Ueno",
+      "Kazushi Maruo",
+      "Asami Komazawa",
+      "Madoka Niwa",
+      "Manabu Honda",
+      "Masaru Horikoshi"
+    ],
+    "year": 2019,
+    "journal": "JAMA Network Open",
+    "doi_or_url": "https://doi.org/10.1001/jamanetworkopen.2019.15819",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2103132316",
+    "title": "A new approach to assess gambling-like behavior in laboratory rats: using intracranial self-stimulation as a positive reinforcer",
+    "authors": [
+      "Stephanie E. Tedford",
+      "Nathan A. Holtz",
+      "Amanda L. Persons",
+      "T. Celeste Napier"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2014.00215",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3026670104",
+    "title": "Inhibition of Catechol-O-methyltransferase Does Not Alter Effort-Related Choice Behavior in a Fixed Ratio/Concurrent Chow Task in Male Mice",
+    "authors": [
+      "Adrienne C. DeBrosse",
+      "Abigail Wheeler",
+      "James C. Barrow",
+      "Gregory V. Carr"
+    ],
+    "year": 2020,
+    "journal": "Frontiers in Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnbeh.2020.00073",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2964106279",
+    "title": "Impact of long\u2010term institutionalization on experiential pleasure and motivation in patients with schizophrenia",
+    "authors": [
+      "Min\u2010yi Chu",
+      "Hui\u2010xin Hu",
+      "Hua Ni",
+      "Weihong Lu",
+      "Simon S. Y. Lui",
+      "Zhen\u2010hui Yi",
+      "Eric F.C. Cheung",
+      "Raymond C. K. Chan"
+    ],
+    "year": 2019,
+    "journal": "PsyCh Journal",
+    "doi_or_url": "https://doi.org/10.1002/pchj.300",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4321769814",
+    "title": "Ventral Tegmental Area M5 Muscarinic Receptors Mediate Effort-Choice Responding and Nucleus Accumbens Dopamine in a Sex-Specific Manner",
+    "authors": [
+      "Eric J. Nunes",
+      "Nardos Kebede",
+      "Joshua L. Haight",
+      "Daniel J. Foster",
+      "Craig W. Lindsley",
+      "P. Jeffrey Conn",
+      "Nii Addy"
+    ],
+    "year": 2023,
+    "journal": "Journal of Pharmacology and Experimental Therapeutics",
+    "doi_or_url": "https://doi.org/10.1124/jpet.122.001438",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2928981051",
+    "title": "Emotional content impacts how executive function ability relates to willingness to wait and to work for reward",
+    "authors": [
+      "Katherine S. F. Damme",
+      "Nicholas J. Kelley",
+      "Meghan E. Quinn",
+      "James E. Glazer",
+      "Iris Ka-Yi Chat",
+      "Katherine S. Young",
+      "Robin Nusslock",
+      "Richard E. Zinbarg",
+      "Susan Y. Bookheimer",
+      "Michelle G. Craske"
+    ],
+    "year": 2019,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-019-00712-4",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4388562482",
+    "title": "Anticipatory and consummatory pleasure in avoidant/restrictive food intake disorder",
+    "authors": [
+      "Sarah Dolan",
+      "P. Evelyna Kambanis",
+      "Casey M. Stern",
+      "Kendra R. Becker",
+      "Lauren Breithaupt",
+      "Julia Gydus",
+      "Sarah E. Smith",
+      "Madhusmita Misra",
+      "Nadia Micali",
+      "Elizabeth A. Lawson",
+      "Kamryn T. Eddy",
+      "Jennifer J. Thomas"
+    ],
+    "year": 2023,
+    "journal": "Journal of Eating Disorders",
+    "doi_or_url": "https://doi.org/10.1186/s40337-023-00921-w",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4378673948",
+    "title": "Fatigue during acute systemic inflammation is associated with reduced mental effort expenditure while task accuracy is preserved",
+    "authors": [
+      "Britt Lambregts",
+      "Eliana Vassena",
+      "Anne F.M. Jansen",
+      "Diante E. Stremmelaar",
+      "Peter Pickkers",
+      "Matthijs Kox",
+      "Esther Aarts",
+      "Marieke E. van der Schaaf"
+    ],
+    "year": 2023,
+    "journal": "Brain Behavior and Immunity",
+    "doi_or_url": "https://doi.org/10.1016/j.bbi.2023.05.013",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3026637054",
+    "title": "Comparison of acute treatment with delayed-onset versus rapid-acting antidepressants on effort-related choice behaviour",
+    "authors": [
+      "Simonas Griesius",
+      "Jack R. Mellor",
+      "Emma Robinson"
+    ],
+    "year": 2020,
+    "journal": "Psychopharmacology",
+    "doi_or_url": "https://doi.org/10.1007/s00213-020-05541-9",
+    "citation_count": 9,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4293724575",
+    "title": "Impaired Effort Allocation in Patients with Recent-Onset Schizophrenia and Its Relevance to Negative Symptoms Assessments and Persistent Negative Symptoms",
+    "authors": [
+      "Ezgi \u0130nce",
+      "Sinan G\u00fcl\u00f6ks\u00fcz",
+      "Alp \u00dc\u00e7ok"
+    ],
+    "year": 2022,
+    "journal": "Journal of Clinical Medicine",
+    "doi_or_url": "https://doi.org/10.3390/jcm11175060",
+    "citation_count": 8,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4362557835",
+    "title": "Women compared with men work harder for small rewards",
+    "authors": [
+      "Carolin Annette Lewis",
+      "Melina Grahlow",
+      "Anne K\u00fchnel",
+      "Birgit Derntl",
+      "Nils B. Kroemer"
+    ],
+    "year": 2023,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-023-32391-0",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4210789771",
+    "title": "Delta-9-tetrahydrocannabinol reduces willingness to exert effort in women",
+    "authors": [
+      "Margaret C. Wardle",
+      "Elisa Pabon",
+      "Heather E. Webber",
+      "Harriet de Wit"
+    ],
+    "year": 2022,
+    "journal": "Psychopharmacology",
+    "doi_or_url": "https://doi.org/10.1007/s00213-021-06032-1",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4394689896",
+    "title": "Effort-cost decision-making associated with negative symptoms in schizophrenia and bipolar disorder",
+    "authors": [
+      "Serhan I\u015f\u0131kl\u0131",
+      "Asl\u0131han Bilge Bekta\u015f",
+      "\u015eule Tamer",
+      "Murat Atabay",
+      "Bilgesu Deniz Arkal\u0131",
+      "Ba\u015fak Ba\u011fc\u0131",
+      "Adem Bayrak\u00e7\u0131",
+      "Miriam Sebold",
+      "Nabi Zorlu"
+    ],
+    "year": 2024,
+    "journal": "Behavioural Brain Research",
+    "doi_or_url": "https://doi.org/10.1016/j.bbr.2024.114996",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2952160053",
+    "title": "Development of a Self-Report Measure of Reward Sensitivity:A Test in Current and Former Smokers",
+    "authors": [
+      "John R. Hughes",
+      "Peter Callas",
+      "Jeff S. Priest",
+      "Jean\u2010Fran\u00e7ois Etter",
+      "Alan J. Budney",
+      "Stacey C. Sigmon"
+    ],
+    "year": 2016,
+    "journal": "Nicotine & Tobacco Research",
+    "doi_or_url": "https://doi.org/10.1093/ntr/ntw272",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3007455444",
+    "title": "Associations between individual differences in approach motivation and effort-based task performance",
+    "authors": [
+      "Thomas M. Olino",
+      "Julia A.C. Case",
+      "Mark V. Versella",
+      "Christina E. Cerra",
+      "Breana G. Genaro"
+    ],
+    "year": 2020,
+    "journal": "Personality and Individual Differences",
+    "doi_or_url": "https://doi.org/10.1016/j.paid.2020.109903",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2563141950",
+    "title": "Using Optimal Control to Disambiguate the Effect of Depression on Sensorimotor, Motivational and Goal-Setting Functions",
+    "authors": [
+      "He Huang",
+      "Katia M. Harl\u00e9",
+      "Javier R. Movellan",
+      "Martin P. Paulus"
+    ],
+    "year": 2016,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0167960",
+    "citation_count": 7,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3085634599",
+    "title": "Exploring approach motivation: Correlating self-report, frontal asymmetry, and performance in the Effort Expenditure for Rewards Task",
+    "authors": [
+      "Imogen Hanna Kaack",
+      "Jung-woo Chae",
+      "Shabah M. Shadli",
+      "Kristin L. Hillman"
+    ],
+    "year": 2020,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-020-00829-x",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4211218065",
+    "title": "Cingulo-Opercular and Frontoparietal Network Control of Effort and Fatigue in Mild Traumatic Brain Injury",
+    "authors": [
+      "Amy E. Ramage",
+      "Kimberly L. Ray",
+      "Hannah Franz",
+      "David F. Tate",
+      "Jeffrey D. Lewis",
+      "Donald A. Robin"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2021.788091",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4388914764",
+    "title": "Neural Correlates of Anhedonia in Major Depressive Disorder: Insights from Concurrent Analysis of Feedback-Related Negativity and Stimulus-Preceding Negativity",
+    "authors": [
+      "Yifan Sun",
+      "Zixuan Huang",
+      "Xuezheng Gao",
+      "Limin Chen",
+      "Jun Wang",
+      "Zhenhe Zhou",
+      "Hongliang Zhou"
+    ],
+    "year": 2023,
+    "journal": "Neuropsychiatric Disease and Treatment",
+    "doi_or_url": "https://doi.org/10.2147/ndt.s435017",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4398160654",
+    "title": "Pupil dilation reflects effortful action invigoration in overcoming aversive Pavlovian biases",
+    "authors": [
+      "Johannes Algermissen",
+      "Hanneke E.M. den Ouden"
+    ],
+    "year": 2024,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/s13415-024-01191-y",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2801376170",
+    "title": "An Examination of the Multi-Faceted Motivation System in Healthy Young Adults",
+    "authors": [
+      "Susana Da Silva",
+      "Areti Apatsidou",
+      "Sarah Saperia",
+      "Ishraq Siddiqui",
+      "Eliyas Jeffay",
+      "Aristotle N. Voineskos",
+      "Zafiris J. Daskalakis",
+      "Gary Remington",
+      "Konstantine K. Zakzanis",
+      "George Foussias"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2018.00191",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4290703669",
+    "title": "Dopamine and Beyond: Implications of Psychophysical Studies of Intracranial Self-Stimulation for the Treatment of Depression",
+    "authors": [
+      "Vasilios Pallikaras",
+      "Peter Shizgal"
+    ],
+    "year": 2022,
+    "journal": "Brain Sciences",
+    "doi_or_url": "https://doi.org/10.3390/brainsci12081052",
+    "citation_count": 5,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3096292668",
+    "title": "Optimizing Behavioral Paradigms to Facilitate Development of New Treatments for Anhedonia and Reward Processing Deficits in Schizophrenia and Major Depressive Disorder: Study Protocol",
+    "authors": [
+      "Amy C. Bilderbeck",
+      "Andreea Raslescu",
+      "Dennis Hernaus",
+      "Anja Hayen",
+      "Daniel Umbricht",
+      "Darrel J. Pemberton",
+      "Jane Tiller",
+      "Birgitte S\u00f8gaard",
+      "Anke Sambeth",
+      "Th\u00e9r\u00e8se van Amelsvoort",
+      "Andreas Reif",
+      "Georgios Papazisis"
+    ],
+    "year": 2020,
+    "journal": "Frontiers in Psychiatry",
+    "doi_or_url": "https://doi.org/10.3389/fpsyt.2020.536112",
+    "citation_count": 5,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4392163550",
+    "title": "How effort\u2010based self\u2010interest motivation shapes altruistic donation behavior and brain responses",
+    "authors": [
+      "Wenhao Mao",
+      "Qin Xiao",
+      "Xuejie Shen",
+      "Xinyi Zhou",
+      "Ailian Wang",
+      "Jia Jin"
+    ],
+    "year": 2024,
+    "journal": "Psychophysiology",
+    "doi_or_url": "https://doi.org/10.1111/psyp.14552",
+    "citation_count": 4,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4386241875",
+    "title": "Refining the study of decision-making in animals: differential effects of d-amphetamine and haloperidol in a novel touchscreen-automated Rearing-Effort Discounting (RED) task and the Fixed-Ratio Effort Discounting (FRED) task",
+    "authors": [
+      "Laura L\u00f3pez\u2010Cruz",
+      "Benjamin U. Phillips",
+      "Jonathan M. Hailwood",
+      "Lisa M. Saksida",
+      "Christopher J. Heath",
+      "Timothy J. Bussey"
+    ],
+    "year": 2023,
+    "journal": "Neuropsychopharmacology",
+    "doi_or_url": "https://doi.org/10.1038/s41386-023-01707-z",
+    "citation_count": 4,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4318499158",
+    "title": "Gender Impacts the Relationship between Mood Disorder Symptoms and Effortful Avoidance Performance",
+    "authors": [
+      "Brandon J. Forys",
+      "Ryan J. Tomm",
+      "Dayana Stamboliyska",
+      "Alex R. Terpstra",
+      "Luke Clark",
+      "Trisha Chakrabarty",
+      "Stan Floresco",
+      "Rebecca M. Todd"
+    ],
+    "year": 2023,
+    "journal": "eNeuro",
+    "doi_or_url": "https://doi.org/10.1523/eneuro.0239-22.2023",
+    "citation_count": 4,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3114303968",
+    "title": "Anhedonia and its intervention in depressive adults: New developments based on Research Domain Criteria (RDoC) in mental illnesses",
+    "authors": [
+      "Jixuan Mao",
+      "Jiajin Yuan"
+    ],
+    "year": 2020,
+    "journal": "Stress and Brain",
+    "doi_or_url": "https://doi.org/10.26599/sab.2020.9060002",
+    "citation_count": 3,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]
