@@ -17,6 +17,11 @@ All notable development changes for `T000019-eefrt` are documented here.
 - `python main.py sim --config config/config_scripted_sim.yaml`
 - `python main.py sim --config config/config_sampler_sim.yaml`
 
+## [Unreleased]
+
+### Changed
+- Refactored `src/run_trial.py` to use `psyflow`'s native `next_trial_id()` and removed legacy internal `_next_trial_id` boilerplate.
+
 ## [0.2.0] - 2026-02-17
 
 ### Changed

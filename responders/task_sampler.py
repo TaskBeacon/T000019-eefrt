@@ -12,8 +12,8 @@ from psyflow.sim.contracts import Action, Feedback, Observation, SessionInfo
 class TaskSamplerResponder:
     """Task-specific EEfRT sampler responder.
 
-    - `anticipation` phase: choose easy/hard option from utility model.
-    - `target` phase: provide effort key with press-rate metadata.
+    - `offer_choice` phase: choose easy/hard option from utility model.
+    - `effort_execution_window` phase: provide effort key with press-rate metadata.
     - Other phases: provide quick continue key if valid.
     """
 
@@ -81,13 +81,14 @@ class TaskSamplerResponder:
     def _choice_action(self, obs: Observation) -> Action:
         factors = dict(obs.task_factors or {})
         valid = list(obs.valid_keys or [])
+        phase = str(obs.phase or factors.get("stage") or "").strip().lower() or "offer_choice"
         easy_key = self.easy_key if self.easy_key in valid else (valid[0] if valid else None)
         hard_key = self.hard_key if self.hard_key in valid else (valid[-1] if valid else None)
         if not valid or easy_key is None or hard_key is None:
             return Action(key=None, rt_s=None, meta={"source": "eefrt_sampler", "reason": "no_valid_choice_keys"})
 
         if self._random() < self.lapse_rate:
-            return Action(key=None, rt_s=None, meta={"source": "eefrt_sampler", "phase": "anticipation", "outcome": "lapse"})
+            return Action(key=None, rt_s=None, meta={"source": "eefrt_sampler", "phase": phase, "outcome": "lapse"})
 
         prob = float(factors.get("offer_probability", 0.5))
         hard_reward = float(factors.get("offer_hard_reward", 2.0))
@@ -110,7 +111,7 @@ class TaskSamplerResponder:
             rt_s=rt,
             meta={
                 "source": "eefrt_sampler",
-                "phase": "anticipation",
+                "phase": phase,
                 "p_hard": p_hard,
                 "utility_hard": utility_hard,
                 "choice_option": "hard" if choose_hard else "easy",
@@ -120,12 +121,13 @@ class TaskSamplerResponder:
     def _effort_action(self, obs: Observation) -> Action:
         factors = dict(obs.task_factors or {})
         valid = list(obs.valid_keys or [])
+        phase = str(obs.phase or factors.get("stage") or "").strip().lower() or "effort_execution_window"
         effort_key = self.effort_key if self.effort_key in valid else (valid[0] if valid else None)
         if effort_key is None:
             return Action(key=None, rt_s=None, meta={"source": "eefrt_sampler", "reason": "no_valid_effort_key"})
 
         if self._random() < self.lapse_rate:
-            return Action(key=None, rt_s=None, meta={"source": "eefrt_sampler", "phase": "target", "outcome": "lapse"})
+            return Action(key=None, rt_s=None, meta={"source": "eefrt_sampler", "phase": phase, "outcome": "lapse"})
 
         choice_option = str(factors.get("choice_option", "easy"))
         base_rate = self.base_press_rate_hz
@@ -139,19 +141,20 @@ class TaskSamplerResponder:
             rt_s=rt,
             meta={
                 "source": "eefrt_sampler",
-                "phase": "target",
+                "phase": phase,
                 "press_rate_hz": sampled_rate,
                 "choice_option": choice_option,
             },
         )
 
     def act(self, obs: Observation) -> Action:
-        phase = str(obs.phase or "").strip().lower()
+        factors = dict(obs.task_factors or {})
+        phase = str(obs.phase or factors.get("stage") or "").strip().lower()
         valid = list(obs.valid_keys or [])
 
-        if phase == "anticipation":
+        if phase in {"offer_choice", "anticipation"}:
             return self._choice_action(obs)
-        if phase == "target":
+        if phase in {"effort_execution_window", "target"}:
             return self._effort_action(obs)
 
         if valid:
@@ -161,4 +164,3 @@ class TaskSamplerResponder:
                 meta={"source": "eefrt_sampler", "phase": phase, "outcome": "continue"},
             )
         return Action(key=None, rt_s=None, meta={"source": "eefrt_sampler", "phase": phase, "outcome": "no_response"})
-

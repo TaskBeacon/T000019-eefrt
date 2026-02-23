@@ -6,7 +6,7 @@ from typing import Any
 
 from psychopy import core
 
-from psyflow import StimUnit, set_trial_context
+from psyflow import StimUnit, set_trial_context, next_trial_id
 from psyflow.sim import Observation, ResponderAdapter, get_context
 
 # run_trial uses task-specific phase labels via set_trial_context(...).
@@ -21,10 +21,6 @@ def _qa_scale_duration(duration_s: float, win) -> float:
     min_frames = int(max(1, ctx.config.min_frames))
     scaled = base * float(ctx.config.timing_scale)
     return max(scaled, frame * min_frames)
-
-
-def _next_trial_id(controller) -> int:
-    return int(getattr(controller, "completed_trials", 0)) + 1
 
 
 def _parse_condition(condition: Any) -> tuple[float, float]:
@@ -113,7 +109,7 @@ def run_trial(
 ):
     """Run one EEfRT trial."""
     probability, hard_reward = _parse_condition(condition)
-    trial_id = _next_trial_id(controller)
+    trial_id = next_trial_id()
     cond_id = _condition_id(probability, hard_reward)
 
     easy_reward = float(getattr(settings, "easy_reward", 1.00))
