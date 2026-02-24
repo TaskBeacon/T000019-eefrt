@@ -4,6 +4,7 @@ Task: `EEfRT Task`
 
 | Trial Component | Implemented Stimulus IDs | Source Paper ID | Evidence Basis | Implementation Mode | Notes |
 |---|---|---|---|---|---|
+| Condition token `offer` | `choice_header`, `choice_left`, `choice_right` | `R1_TREADWAY_2009`, `R2_OHMANN_2022` | Task-level condition token resolves to generated EEfRT offer parameters shown on the choice screen. | `psychopy_builtin` | `task.conditions` uses placeholder token `offer`; actual content comes from `condition_generation` trial specs. |
 | Fixation | `fixation` | `R1_TREADWAY_2009` | Canonical trial-start fixation before offer evaluation | `psychopy_builtin` | Central `+` text stimulus. |
 | Offer/choice display | `choice_offer` | `R1_TREADWAY_2009`, `R2_OHMANN_2022` | Probability cue + easy/hard option reward display before choice | `psychopy_builtin` | Uses Chinese text; no hidden condition labels shown. |
 | Ready cue before effort | `ready_text` | `R1_TREADWAY_2009` | Choice confirmation before motor execution | `psychopy_builtin` | Provides selected option and effort requirement. |
@@ -16,4 +17,3 @@ Implementation mode legend:
 - `psychopy_builtin`: generated at runtime using PsychoPy text primitives.
 - `generated_reference_asset`: generated media aligned to reference-defined stimulus rules.
 - `licensed_external_asset`: externally sourced licensed media with protocol linkage.
-

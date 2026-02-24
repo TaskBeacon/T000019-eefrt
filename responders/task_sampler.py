@@ -152,9 +152,9 @@ class TaskSamplerResponder:
         phase = str(obs.phase or factors.get("stage") or "").strip().lower()
         valid = list(obs.valid_keys or [])
 
-        if phase in {"offer_choice", "anticipation"}:
+        if phase == "offer_choice":
             return self._choice_action(obs)
-        if phase in {"effort_execution_window", "target"}:
+        if phase == "effort_execution_window":
             return self._effort_action(obs)
 
         if valid:

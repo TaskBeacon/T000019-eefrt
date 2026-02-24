@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
 import itertools
 import random
 from typing import Any
@@ -8,101 +7,69 @@ from typing import Any
 from psychopy import logging
 
 
-@dataclass
-class Controller:
-    """Offer generator + trial outcome helper for EEfRT."""
+EEFRTOfferCondition = tuple[float, float, str, int, str, float]
 
-    probability_levels: list[float] = field(default_factory=lambda: [0.12, 0.50, 0.88])
-    hard_reward_levels: list[float] = field(
-        default_factory=lambda: [1.24, 1.68, 2.11, 2.55, 2.99, 3.43, 3.86, 4.30]
-    )
-    randomize_order: bool = True
-    no_choice_hard_prob: float = 0.5
-    enable_logging: bool = True
 
-    def __post_init__(self) -> None:
-        self._base_rng = random.Random(0)
-        self._last_block_seed: int | None = None
-        self.completed_trials: int = 0
-        self._history: list[dict[str, Any]] = []
+def build_eefrt_offer_conditions(
+    n_trials: int,
+    condition_labels: list[Any] | None = None,
+    *,
+    seed: int | None = None,
+    probability_levels: list[float] | None = None,
+    hard_reward_levels: list[float] | None = None,
+    randomize_order: bool = True,
+    no_choice_hard_prob: float = 0.5,
+    enable_logging: bool = True,
+    **_: Any,
+) -> list[EEFRTOfferCondition]:
+    """Generate hashable EEfRT trial specs for one block.
 
-        self.probability_levels = [float(p) for p in self.probability_levels]
-        self.hard_reward_levels = [round(float(r), 2) for r in self.hard_reward_levels]
-        self.no_choice_hard_prob = max(0.0, min(1.0, float(self.no_choice_hard_prob)))
+    Each tuple stores:
+    `(offer_probability, hard_reward, condition_id, trial_index, fallback_choice, reward_draw_u)`
+    """
+    n = max(0, int(n_trials))
+    if n == 0:
+        return []
 
-    @classmethod
-    def from_dict(cls, config: dict[str, Any]) -> "Controller":
-        allowed = {
-            "probability_levels",
-            "hard_reward_levels",
-            "randomize_order",
-            "no_choice_hard_prob",
-            "enable_logging",
-        }
-        extra = set(config.keys()) - allowed
-        if extra:
-            raise ValueError(f"[EEfRTController] Unsupported config keys: {sorted(extra)}")
-        return cls(
-            probability_levels=list(config.get("probability_levels", [0.12, 0.50, 0.88])),
-            hard_reward_levels=list(
-                config.get("hard_reward_levels", [1.24, 1.68, 2.11, 2.55, 2.99, 3.43, 3.86, 4.30])
-            ),
-            randomize_order=bool(config.get("randomize_order", True)),
-            no_choice_hard_prob=float(config.get("no_choice_hard_prob", 0.5)),
-            enable_logging=bool(config.get("enable_logging", True)),
-        )
+    probs = [float(p) for p in (probability_levels or [0.12, 0.50, 0.88])]
+    rewards = [round(float(r), 2) for r in (hard_reward_levels or [1.24, 1.68, 2.11, 2.55, 2.99, 3.43, 3.86, 4.30])]
+    if not probs or not rewards:
+        raise ValueError("EEfRT condition generation requires non-empty probability_levels and hard_reward_levels")
 
-    def prepare_block(self, *, block_idx: int, n_trials: int, seed: int) -> list[tuple[float, float]]:
-        if n_trials <= 0:
-            return []
+    p_hard = max(0.0, min(1.0, float(no_choice_hard_prob)))
+    rng = random.Random(seed if seed is not None else 0)
 
-        combos = list(itertools.product(self.probability_levels, self.hard_reward_levels))
-        if not combos:
-            raise ValueError("[EEfRTController] No offer combinations available.")
+    combos = [(float(p), float(r)) for p, r in itertools.product(probs, rewards)]
+    reps = n // len(combos)
+    rem = n % len(combos)
+    offers: list[tuple[float, float]] = combos * reps
+    if rem > 0:
+        offers.extend(rng.sample(combos, k=rem) if rem <= len(combos) else rng.choices(combos, k=rem))
+    if randomize_order:
+        rng.shuffle(offers)
 
-        rng = random.Random(int(seed))
-        self._base_rng = rng
-        self._last_block_seed = int(seed)
+    out: list[EEFRTOfferCondition] = []
+    for trial_index, (prob, hard_reward) in enumerate(offers, start=1):
+        cond_id = f"p{int(round(prob * 100)):02d}_h{hard_reward:.2f}_t{trial_index:03d}"
+        fallback_choice = "hard" if rng.random() < p_hard else "easy"
+        reward_draw_u = float(rng.random())
+        out.append((float(prob), float(hard_reward), cond_id, int(trial_index), fallback_choice, reward_draw_u))
 
-        reps = n_trials // len(combos)
-        rem = n_trials % len(combos)
-        offers = combos * reps
+    if enable_logging:
+        prob_dist: dict[int, int] = {}
+        for prob, *_rest in out:
+            key = int(round(float(prob) * 100))
+            prob_dist[key] = prob_dist.get(key, 0) + 1
+        logging.data(f"[EEfRTConditionGen] n_trials={n} seed={seed} prob_dist={prob_dist}")
 
-        if rem > 0:
-            if rem <= len(combos):
-                offers.extend(rng.sample(combos, k=rem))
-            else:
-                offers.extend(rng.choices(combos, k=rem))
+    return out
 
-        if self.randomize_order:
-            rng.shuffle(offers)
 
-        if self.enable_logging:
-            prob_dist: dict[int, int] = {}
-            for p, _ in offers:
-                k = int(round(p * 100))
-                prob_dist[k] = prob_dist.get(k, 0) + 1
-            logging.data(
-                f"[EEfRTController] block={block_idx} n_trials={n_trials} seed={seed} prob_dist={prob_dist}"
-            )
+def choose_fallback_key(*, fallback_choice: str, easy_key: str, hard_key: str) -> str:
+    return hard_key if str(fallback_choice).strip().lower() == "hard" else easy_key
 
-        return [(float(p), float(r)) for p, r in offers]
 
-    def fallback_choice(self, *, easy_key: str, hard_key: str) -> str:
-        return hard_key if self._base_rng.random() < self.no_choice_hard_prob else easy_key
-
-    def draw_reward(self, probability: float) -> bool:
-        p = max(0.0, min(1.0, float(probability)))
-        return self._base_rng.random() < p
-
-    def update(self, trial_summary: dict[str, Any]) -> None:
-        self.completed_trials += 1
-        self._history.append(dict(trial_summary))
-        if self.enable_logging:
-            choice = trial_summary.get("choice_option")
-            completed = bool(trial_summary.get("effort_completed", False))
-            reward = float(trial_summary.get("reward_amount", 0.0) or 0.0)
-            logging.data(
-                f"[EEfRTController] trial={self.completed_trials} choice={choice} completed={completed} reward={reward:.2f}"
-            )
-
+def reward_draw_win(*, probability: float, reward_draw_u: float) -> bool:
+    p = max(0.0, min(1.0, float(probability)))
+    u = max(0.0, min(1.0, float(reward_draw_u)))
+    return bool(u < p)

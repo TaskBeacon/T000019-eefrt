@@ -251,8 +251,8 @@ triggers:
     strict: false
 
 
-# === Trial Controller =======================================================
-controller:
+# === Condition Generation ===================================================
+condition_generation:
   probability_levels: [0.12, 0.50, 0.88]
   hard_reward_levels: [1.50, 2.80, 4.30]
   randomize_order: true
@@ -272,10 +272,10 @@ qa:
     required_columns:
       - offer_probability
       - offer_hard_reward
-      - anticipation_choice_option
-      - target_required_presses
-      - target_press_count
-      - target_hit
+      - offer_choice_choice_option
+      - effort_execution_required_presses
+      - effort_execution_press_count
+      - effort_execution_hit
       - reward_feedback_reward_amount
       - reward_amount
     expected_trial_count: 12

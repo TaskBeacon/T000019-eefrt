@@ -1,13 +1,13 @@
 ﻿from __future__ import annotations
 
 from functools import partial
-import re
 from typing import Any
 
 from psychopy import core
 
 from psyflow import StimUnit, set_trial_context, next_trial_id
 from psyflow.sim import Observation, ResponderAdapter, get_context
+from .utils import choose_fallback_key, reward_draw_win
 
 # run_trial uses task-specific phase labels via set_trial_context(...).
 
@@ -23,20 +23,16 @@ def _qa_scale_duration(duration_s: float, win) -> float:
     return max(scaled, frame * min_frames)
 
 
-def _parse_condition(condition: Any) -> tuple[float, float]:
-    if isinstance(condition, (tuple, list)) and len(condition) >= 2:
-        return float(condition[0]), float(condition[1])
-    if isinstance(condition, str):
-        m = re.match(r"^p(\d+)_h(\d+)p(\d+)$", condition.strip().lower())
-        if m:
-            prob = float(int(m.group(1))) / 100.0
-            hard_reward = float(f"{m.group(2)}.{m.group(3)}")
-            return prob, hard_reward
+def _parse_offer_condition(condition: Any) -> tuple[float, float, str, int | None, str, float]:
+    if isinstance(condition, (tuple, list)) and len(condition) >= 6:
+        probability = float(condition[0])
+        hard_reward = float(condition[1])
+        condition_id = str(condition[2])
+        trial_index = int(condition[3]) if condition[3] is not None else None
+        fallback_choice = str(condition[4]).strip().lower()
+        reward_draw_u = float(condition[5])
+        return probability, hard_reward, condition_id, trial_index, fallback_choice, reward_draw_u
     raise ValueError(f"Unsupported EEfRT condition format: {condition!r}")
-
-
-def _condition_id(probability: float, hard_reward: float) -> str:
-    return f"p{int(round(probability * 100)):02d}_h{hard_reward:.2f}"
 
 
 def _simulate_effort_via_responder(
@@ -102,15 +98,13 @@ def run_trial(
     settings,
     condition,
     stim_bank,
-    controller,
     trigger_runtime,
     block_id=None,
     block_idx=None,
 ):
     """Run one EEfRT trial."""
-    probability, hard_reward = _parse_condition(condition)
+    probability, hard_reward, cond_id, planned_trial_index, fallback_choice, reward_draw_u = _parse_offer_condition(condition)
     trial_id = next_trial_id()
-    cond_id = _condition_id(probability, hard_reward)
 
     easy_reward = float(getattr(settings, "easy_reward", 1.00))
     easy_presses = int(getattr(settings, "easy_required_presses", 30))
@@ -126,11 +120,12 @@ def run_trial(
         "offer_probability": probability,
         "offer_hard_reward": hard_reward,
         "offer_easy_reward": easy_reward,
+        "planned_trial_index": planned_trial_index,
     }
     make_unit = partial(StimUnit, win=win, kb=kb, runtime=trigger_runtime)
 
     # phase: offer_fixation
-    cue = make_unit(unit_label="cue").add_stim(stim_bank.get("fixation"))
+    cue = make_unit(unit_label="offer_fixation").add_stim(stim_bank.get("fixation"))
     set_trial_context(
         cue,
         trial_id=trial_id,
@@ -154,7 +149,7 @@ def run_trial(
 
     # --- Choice stage (phase label: offer_choice) ---
     choice = (
-        make_unit(unit_label="anticipation")
+        make_unit(unit_label="offer_choice")
         .add_stim(
             stim_bank.get_and_format(
                 "choice_header",
@@ -191,6 +186,8 @@ def run_trial(
             "offer_probability": probability,
             "offer_hard_reward": hard_reward,
             "offer_easy_reward": easy_reward,
+            "easy_required_presses": easy_presses,
+            "hard_required_presses": hard_presses,
             "easy_key": easy_key,
             "hard_key": hard_key,
             "block_idx": block_idx,
@@ -212,7 +209,11 @@ def run_trial(
     choice_key = choice.get_state("response", None)
     choice_forced = False
     if choice_key not in (easy_key, hard_key):
-        choice_key = controller.fallback_choice(easy_key=easy_key, hard_key=hard_key)
+        choice_key = choose_fallback_key(
+            fallback_choice=fallback_choice,
+            easy_key=easy_key,
+            hard_key=hard_key,
+        )
         choice_forced = True
         trigger_runtime.send(settings.triggers.get("choice_forced"))
 
@@ -246,7 +247,7 @@ def run_trial(
     ).to_dict(trial_data)
 
     # --- Effort stage (phase label: effort_execution_window) ---
-    target = make_unit(unit_label="target")
+    target = make_unit(unit_label="effort_execution")
     target_factors = {
         "stage": "effort_execution_window",
         "choice_option": choice_option,
@@ -367,7 +368,7 @@ def run_trial(
 
     # phase: effort_feedback
     completion_key = "effort_success_feedback" if effort_completed else "effort_fail_feedback"
-    feedback = make_unit(unit_label="feedback").add_stim(stim_bank.get(completion_key))
+    feedback = make_unit(unit_label="effort_feedback").add_stim(stim_bank.get(completion_key))
     set_trial_context(
         feedback,
         trial_id=trial_id,
@@ -390,7 +391,7 @@ def run_trial(
     ).to_dict(trial_data)
 
     # --- Reward outcome ---
-    reward_win = bool(effort_completed and controller.draw_reward(probability))
+    reward_win = bool(effort_completed and reward_draw_win(probability=probability, reward_draw_u=reward_draw_u))
     reward_amount = float(chosen_reward if reward_win else 0.0)
     if not effort_completed:
         reward_stim = stim_bank.get("reward_incomplete_feedback")
@@ -447,12 +448,5 @@ def run_trial(
         }
     )
 
-    controller.update(
-        {
-            "choice_option": choice_option,
-            "effort_completed": effort_completed,
-            "reward_amount": reward_amount,
-        }
-    )
     return trial_data
 

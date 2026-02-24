@@ -5,15 +5,15 @@
 | Field | Value |
 |---|---|
 | Name | EEfRT Task |
-| Version | v0.2.0-dev |
+| Version | v0.2.1-dev |
 | URL / Repository | https://github.com/TaskBeacon/T000019-eefrt |
 | Short Description | Effort Expenditure for Rewards Task with probabilistic reward outcomes. |
 | Created By | TaskBeacon |
-| Date Updated | 2026-02-18 |
+| Date Updated | 2026-02-24 |
 | PsyFlow Version | 0.1.9 |
 | PsychoPy Version | 2025.1.1 |
 | Modality | Behavior |
-| Language | English |
+| Language | Chinese |
 | Voice Name | zh-CN-YunyangNeural |
 
 ## 1. Task Overview
@@ -27,8 +27,8 @@ This task implements an EEfRT-style paradigm in which participants choose betwee
 | Step | Description |
 |---|---|
 | 1. Parse mode and config | `main.py` loads `human`, `qa`, or `sim` runtime mode and the selected YAML config. |
-| 2. Initialize runtime | Window, keyboard, trigger runtime, stimulus bank, and controller are initialized. |
-| 3. Prepare offers | For each block, the controller generates `(probability, hard_reward)` trial offers. |
+| 2. Initialize runtime | Window, keyboard, trigger runtime, and stimulus bank are initialized. |
+| 3. Prepare offers | For each block, a custom condition generator builds deterministic `(probability, hard_reward, fallback, reward-draw)` trial specs. |
 | 4. Execute trials | Trials run through `src/run_trial.py` with full context logging. |
 | 5. Block summary | Block metrics are shown (high-effort rate, completion rate, block reward). |
 | 6. Final summary | Final task metrics are shown and trial data are saved. |
@@ -49,10 +49,9 @@ This task implements an EEfRT-style paradigm in which participants choose betwee
 
 | Component | Description |
 |---|---|
-| Offer grid | Probability levels and hard-reward levels are combined into block offers. |
-| Fallback choice | If no choice is made in time, fallback policy can assign low/high effort. |
-| Reward draw | Bernoulli draw based on trial probability and completion status. |
-| Logging | Trial-level choices, effort completion, and rewards are accumulated. |
+| Adaptive controller | Not used. EEfRT does not require dynamic RT-window adjustment. |
+| Offer condition generation | `src/utils.py` generates deterministic block trial specs (offer grid + fallback choice + reward draw sample). |
+| Runtime scoring | Trial outcomes and rewards are computed in `src/run_trial.py`; summaries are aggregated from trial data in `main.py`. |
 
 ### Runtime Context Phases
 
@@ -116,3 +115,5 @@ Participants complete an EEfRT-style effort-based choice task. On each trial, re
 If the effort criterion is met, reward outcome is sampled according to trial probability. If the criterion is not met, reward is set to zero. Trial-level records include offer parameters, selected option, effort completion status, reaction timing, and reward outcome.
 
 The implementation supports `human`, `qa`, and `sim` modes with consistent trial logic and responder-context instrumentation for reproducibility and auditability.
+
+This refactor removes the generic task controller object and replaces it with explicit condition-generation utilities so the EEfRT offer logic and stochastic outcomes are easier to audit.
