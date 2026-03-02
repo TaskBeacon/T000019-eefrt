@@ -1,19 +1,14 @@
 # Stimulus Mapping
 
-Task: `EEfRT Task`
+## Mapping Table
 
-| Trial Component | Implemented Stimulus IDs | Source Paper ID | Evidence Basis | Implementation Mode | Notes |
-|---|---|---|---|---|---|
-| Condition token `offer` | `choice_header`, `choice_left`, `choice_right` | `R1_TREADWAY_2009`, `R2_OHMANN_2022` | Task-level condition token resolves to generated EEfRT offer parameters shown on the choice screen. | `psychopy_builtin` | `task.conditions` uses placeholder token `offer`; actual content comes from `condition_generation` trial specs. |
-| Fixation | `fixation` | `R1_TREADWAY_2009` | Canonical trial-start fixation before offer evaluation | `psychopy_builtin` | Central `+` text stimulus. |
-| Offer/choice display | `choice_offer` | `R1_TREADWAY_2009`, `R2_OHMANN_2022` | Probability cue + easy/hard option reward display before choice | `psychopy_builtin` | Uses Chinese text; no hidden condition labels shown. |
-| Ready cue before effort | `ready_text` | `R1_TREADWAY_2009` | Choice confirmation before motor execution | `psychopy_builtin` | Provides selected option and effort requirement. |
-| Effort execution display | `effort_prompt`, `effort_counter` | `R1_TREADWAY_2009` | Repeated button-press execution under time limit | `psychopy_builtin` | Live progress and remaining-time feedback during effort window. |
-| Completion feedback | `effort_success_feedback`, `effort_fail_feedback` | `R1_TREADWAY_2009` | Completion status before reward outcome | `psychopy_builtin` | Separates effort completion from reward lottery outcome. |
-| Reward outcome feedback | `reward_win_feedback`, `reward_nowin_feedback`, `reward_incomplete_feedback` | `R1_TREADWAY_2009` | Probabilistic reward given completion | `psychopy_builtin` | Win/loss/incomplete outcomes explicitly distinguished. |
-| Block and task summary | `block_break`, `good_bye` | `R2_OHMANN_2022`, `R3_TREADWAY_2012` | Behavioral summary metrics for QC and interpretation | `psychopy_builtin` | Displays hard-choice rate, completion rate, and total reward. |
-
-Implementation mode legend:
-- `psychopy_builtin`: generated at runtime using PsychoPy text primitives.
-- `generated_reference_asset`: generated media aligned to reference-defined stimulus rules.
-- `licensed_external_asset`: externally sourced licensed media with protocol linkage.
+| Condition | Stage/Phase | Stimulus IDs | Participant-Facing Content | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Asset References | Notes |
+|---|---|---|---|---|---|---|---|---|
+| `offer` | `offer_fixation` | `fixation` | Central fixation cross before offer/choice display | R1_TREADWAY_2009 | Canonical pre-choice fixation | psychopy_builtin | config text stimulus | Shared across trials |
+| `offer` | `offer_choice` | `choice_header`, `choice_left`, `choice_right` | Probability cue and easy/hard options with reward and effort requirements | R1_TREADWAY_2009; R2_OHMANN_2022 | EEfRT choice stage presents probability and option values | psychopy_builtin | config text stimuli with formatting | Content generated from trial condition tuple |
+| `offer` | `ready` | `ready_text` | Brief confirmation of selected option and required presses/time | R1_TREADWAY_2009 | Transition from choice to effort execution | psychopy_builtin | config text stimulus | Uses localized labels |
+| `offer` | `effort_execution_window` | `effort_prompt`, `effort_counter` | Repeated keypress task with running press count and remaining time | R1_TREADWAY_2009 | Effort execution stage with press-count criterion | psychopy_builtin | config text template + runtime formatting | Counter updated each frame |
+| `offer` | `effort_feedback` | `effort_success_feedback`, `effort_fail_feedback` | Completion status after effort window | R1_TREADWAY_2009 | Completion outcome precedes reward lottery | psychopy_builtin | config text stimuli | Binary success/fail message |
+| `offer` | `reward_feedback` | `reward_win_feedback`, `reward_nowin_feedback`, `reward_incomplete_feedback` | Reward win/no-win/incomplete messages and amount | R1_TREADWAY_2009 | Reward only when effort completed and probabilistic draw wins | psychopy_builtin | config text stimuli with amount formatting | Explicitly separates completion and lottery outcome |
+| `all` | `inter_trial_interval` | `fixation` | Short fixation between trials | R1_TREADWAY_2009 | ITI separation between EEfRT trials | psychopy_builtin | config text stimulus | Phase boundary marker |
+| `all` | `instruction/block_break/goodbye` | `instruction_text`, `block_break`, `good_bye` | Instructions, break summary, and end-of-task message | R2_OHMANN_2022; R3_TREADWAY_2012 | Session control and summary support behavioral interpretation | psychopy_builtin | config text stimuli | Localization-ready via config |
