@@ -10,9 +10,11 @@ maturity: draft
 version:
   release_tag: v0.2.1-dev
 contracts:
-  taps: v0.1.0
+  taps: v0.2.0
 evidence:
   - references/references.yaml
   - references/parameter_mapping.md
   - references/stimulus_mapping.md
 maintainer: []
+runtime:
+  profile: psyflow
