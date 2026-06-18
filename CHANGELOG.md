@@ -29,6 +29,7 @@ All notable development changes for `T000019-eefrt` are documented here.
 - Renamed legacy internal unit labels to task-specific names (`offer_choice`, `effort_execution`, `effort_feedback`) for clearer QA traces.
 - Updated `responders/task_sampler.py` to use canonical phases only (`offer_choice`, `effort_execution_window`).
 - Updated `references/parameter_mapping.md` and `README.md` to reflect `condition_generation` instead of a generic controller.
+- Added explicit trial context metadata for `ready` and `reward_feedback` visible phases.
 
 ### Fixed
 - Fixed task-build standard failure caused by missing `references/task_logic_audit.md`.

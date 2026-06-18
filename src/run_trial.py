@@ -233,7 +233,7 @@ def run_trial(
     ).to_dict(trial_data)
 
     # --- Ready ---
-    make_unit(unit_label="ready").add_stim(
+    ready = make_unit(unit_label="ready").add_stim(
         stim_bank.get_and_format(
             "ready_text",
             choice_label=choice_label,
@@ -241,7 +241,25 @@ def run_trial(
             effort_key=effort_key.upper(),
             time_limit_s=f"{effort_deadline:.1f}",
         )
-    ).show(
+    )
+    set_trial_context(
+        ready,
+        trial_id=trial_id,
+        phase="ready",
+        deadline_s=_qa_scale_duration(float(settings.ready_duration), win),
+        valid_keys=[],
+        block_id=block_id,
+        condition_id=cond_id,
+        task_factors={
+            "stage": "ready",
+            "choice_option": choice_option,
+            "required_presses": required_presses,
+            "effort_deadline_s": effort_deadline,
+            "block_idx": block_idx,
+        },
+        stim_id="ready_text",
+    )
+    ready.show(
         duration=float(settings.ready_duration),
         onset_trigger=settings.triggers.get("ready_onset"),
     ).to_dict(trial_data)
@@ -407,6 +425,30 @@ def run_trial(
         reward_code = settings.triggers.get("reward_nowin_onset")
 
     reward_fb = make_unit(unit_label="reward_feedback").add_stim(reward_stim)
+    set_trial_context(
+        reward_fb,
+        trial_id=trial_id,
+        phase="reward_feedback",
+        deadline_s=_qa_scale_duration(float(settings.reward_feedback_duration), win),
+        valid_keys=[],
+        block_id=block_id,
+        condition_id=cond_id,
+        task_factors={
+            "stage": "reward_feedback",
+            "choice_option": choice_option,
+            "effort_completed": effort_completed,
+            "reward_win": reward_win,
+            "reward_probability": probability,
+            "block_idx": block_idx,
+        },
+        stim_id=(
+            "reward_incomplete_feedback"
+            if not effort_completed
+            else "reward_win_feedback"
+            if reward_win
+            else "reward_nowin_feedback"
+        ),
+    )
     reward_fb.show(
         duration=float(settings.reward_feedback_duration),
         onset_trigger=reward_code,
