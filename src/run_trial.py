@@ -35,6 +35,10 @@ def _parse_offer_condition(condition: Any) -> tuple[float, float, str, int | Non
     raise ValueError(f"Unsupported EEfRT condition format: {condition!r}")
 
 
+def _formatted_stim_text(stim_bank, stim_id: str, **kwargs) -> str:
+    return str(getattr(stim_bank.get_and_format(stim_id, **kwargs), "text"))
+
+
 def _simulate_effort_via_responder(
     *,
     trial_id: int,
@@ -115,6 +119,8 @@ def run_trial(
     choice_keys = list(getattr(settings, "choice_keys", ["f", "j"]))
     easy_key = str(choice_keys[0])
     hard_key = str(choice_keys[1] if len(choice_keys) > 1 else choice_keys[0])
+    easy_choice_label = str(getattr(settings, "easy_choice_label"))
+    hard_choice_label = str(getattr(settings, "hard_choice_label"))
 
     trial_data = {
         "offer_probability": probability,
@@ -221,7 +227,7 @@ def run_trial(
     required_presses = hard_presses if choice_option == "hard" else easy_presses
     effort_deadline = hard_deadline if choice_option == "hard" else easy_deadline
     chosen_reward = hard_reward if choice_option == "hard" else easy_reward
-    choice_label = "高努力" if choice_option == "hard" else "低努力"
+    choice_label = hard_choice_label if choice_option == "hard" else easy_choice_label
 
     choice.set_state(
         choice_key=choice_key,
@@ -339,7 +345,13 @@ def run_trial(
         while stage_clock.getTime() < effort_deadline and press_count < required_presses:
             elapsed = stage_clock.getTime()
             remain = max(0.0, effort_deadline - elapsed)
-            counter.text = f"按键进度：{press_count}/{required_presses}\n剩余时间：{remain:.1f} 秒"
+            counter.text = _formatted_stim_text(
+                stim_bank,
+                "effort_counter",
+                current_presses=press_count,
+                required_presses=required_presses,
+                time_left_s=f"{remain:.1f}",
+            )
             prompt.draw()
             counter.draw()
             flip_time = win.flip()

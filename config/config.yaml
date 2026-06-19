@@ -46,6 +46,8 @@ task:
   key_list: ["f", "j", "space"]
   choice_keys: ["f", "j"]
   effort_key: "space"
+  easy_choice_label: "\u4f4e\u52aa\u529b"
+  hard_choice_label: "\u9ad8\u52aa\u529b"
   easy_reward: 1.00
   easy_required_presses: 30
   hard_required_presses: 100
