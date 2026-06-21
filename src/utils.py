@@ -4,7 +4,8 @@ import itertools
 import random
 from typing import Any
 
-from psychopy import logging
+from psychopy import core, logging
+from psyflow.sim import Observation, ResponderAdapter, get_context
 
 
 EEFRTOfferCondition = tuple[float, float, str, int, str, float]
@@ -73,3 +74,198 @@ def reward_draw_win(*, probability: float, reward_draw_u: float) -> bool:
     p = max(0.0, min(1.0, float(probability)))
     u = max(0.0, min(1.0, float(reward_draw_u)))
     return bool(u < p)
+
+
+def parse_offer_condition(condition: Any) -> tuple[float, float, str, int | None, str, float]:
+    """Decode a scheduled EEfRT offer condition."""
+    if isinstance(condition, (tuple, list)) and len(condition) >= 6:
+        probability = float(condition[0])
+        hard_reward = float(condition[1])
+        condition_id = str(condition[2])
+        trial_index = int(condition[3]) if condition[3] is not None else None
+        fallback_choice = str(condition[4]).strip().lower()
+        reward_draw_u = float(condition[5])
+        return probability, hard_reward, condition_id, trial_index, fallback_choice, reward_draw_u
+    raise ValueError(f"Unsupported EEfRT condition format: {condition!r}")
+
+
+def formatted_stim_text(stim_bank: Any, stim_id: str, **kwargs: Any) -> str:
+    return str(getattr(stim_bank.get_and_format(stim_id, **kwargs), "text"))
+
+
+def simulate_effort_via_responder(
+    *,
+    trial_id: int,
+    block_id: str | None,
+    condition_id: str,
+    task_factors: dict[str, Any],
+    effort_key: str,
+    deadline_s: float,
+) -> tuple[int, float | None]:
+    ctx = get_context()
+    if ctx is None or ctx.responder is None or ctx.mode not in ("qa", "sim"):
+        return 0, None
+
+    obs = Observation(
+        mode=ctx.mode,
+        trial_id=trial_id,
+        block_id=block_id,
+        phase="effort_execution_window",
+        valid_keys=[effort_key],
+        deadline_s=deadline_s,
+        response_window_open=True,
+        response_window_s=deadline_s,
+        condition_id=condition_id,
+        task_factors=task_factors,
+        stim_id="effort_stage",
+    )
+    adapter = ResponderAdapter(
+        policy=str(ctx.config.sim_policy),
+        default_rt_s=float(ctx.config.default_rt_s),
+        clamp_rt=bool(ctx.config.clamp_rt),
+        logger=ctx.sim_logger,
+        session=ctx.session,
+    )
+    handled = adapter.handle_response(obs, ctx.responder)
+    action = handled.used_action
+    if action.key is None:
+        return 0, None
+
+    meta = dict(action.meta or {})
+    rt = float(action.rt_s) if action.rt_s is not None else float(ctx.config.default_rt_s)
+    if "press_count" in meta:
+        try:
+            return max(0, int(meta["press_count"])), rt
+        except Exception:
+            pass
+    if "press_rate_hz" in meta:
+        try:
+            rate = max(0.0, float(meta["press_rate_hz"]))
+            return max(0, int(rate * deadline_s)), rt
+        except Exception:
+            pass
+
+    interval = max(0.05, rt)
+    return max(1, int(deadline_s / interval)), rt
+
+
+def run_effort_execution(
+    *,
+    win: Any,
+    kb: Any,
+    stim_bank: Any,
+    trigger_runtime: Any,
+    target: Any,
+    trial_data: dict[str, Any],
+    trial_id: int,
+    block_id: str | None,
+    condition_id: str,
+    task_factors: dict[str, Any],
+    choice_label: str,
+    required_presses: int,
+    effort_key: str,
+    effort_deadline: float,
+) -> dict[str, Any]:
+    """Run the repeated-key effort execution phase outside run_trial orchestration."""
+    prompt = stim_bank.get_and_format(
+        "effort_prompt",
+        choice_label=choice_label,
+        required_presses=required_presses,
+        effort_key=effort_key.upper(),
+        time_limit_s=f"{effort_deadline:.1f}",
+    )
+    counter = stim_bank.get_and_format(
+        "effort_counter",
+        current_presses=0,
+        required_presses=required_presses,
+        time_left_s=f"{effort_deadline:.1f}",
+    )
+
+    onset_global = core.getAbsTime()
+    trigger_runtime.send(task_factors.get("target_onset_trigger"))
+    target.set_state(onset_time=0.0, onset_time_global=onset_global)
+
+    ctx = get_context()
+    responder_active = bool(ctx is not None and ctx.mode in ("qa", "sim") and ctx.responder is not None)
+    press_count = 0
+    first_rt = None
+    close_time = effort_deadline
+
+    if responder_active:
+        prompt.draw()
+        counter.draw()
+        flip_time = win.flip()
+        target.set_state(flip_time=flip_time)
+
+        press_count, first_rt = simulate_effort_via_responder(
+            trial_id=trial_id,
+            block_id=block_id,
+            condition_id=condition_id,
+            task_factors=task_factors,
+            effort_key=effort_key,
+            deadline_s=effort_deadline,
+        )
+        if press_count > 0:
+            trigger_runtime.send(task_factors.get("target_key_press_trigger"))
+            close_time = min(effort_deadline, max(first_rt or 0.0, 0.01))
+    else:
+        kb.clearEvents()
+        kb.clock.reset()
+        stage_clock = core.Clock()
+        first_flip = None
+
+        while stage_clock.getTime() < effort_deadline and press_count < required_presses:
+            elapsed = stage_clock.getTime()
+            remain = max(0.0, effort_deadline - elapsed)
+            counter.text = formatted_stim_text(
+                stim_bank,
+                "effort_counter",
+                current_presses=press_count,
+                required_presses=required_presses,
+                time_left_s=f"{remain:.1f}",
+            )
+            prompt.draw()
+            counter.draw()
+            flip_time = win.flip()
+            if first_flip is None:
+                first_flip = flip_time
+                target.set_state(flip_time=flip_time)
+
+            keys = kb.getKeys(keyList=[effort_key], waitRelease=False)
+            if keys:
+                press_count += len(keys)
+                if first_rt is None:
+                    try:
+                        first_rt = float(keys[0].rt)
+                    except Exception:
+                        first_rt = float(stage_clock.getTime())
+                    trigger_runtime.send(task_factors.get("target_key_press_trigger"))
+
+        close_time = min(effort_deadline, float(stage_clock.getTime()))
+
+    effort_completed = press_count >= required_presses
+    trigger_runtime.send(task_factors.get("target_complete_trigger" if effort_completed else "target_fail_trigger"))
+    close_global = onset_global + close_time
+    response_global = onset_global + float(first_rt) if first_rt is not None else None
+
+    target.set_state(
+        response=effort_key if press_count > 0 else None,
+        key_press=press_count > 0,
+        rt=first_rt,
+        response_time=first_rt,
+        response_time_global=response_global,
+        hit=effort_completed,
+        required_presses=required_presses,
+        press_count=press_count,
+        effort_deadline_s=effort_deadline,
+        choice_option=task_factors.get("choice_option"),
+        close_time=close_time,
+        close_time_global=close_global,
+    ).to_dict(trial_data)
+
+    return {
+        "press_count": press_count,
+        "first_rt": first_rt,
+        "close_time": close_time,
+        "effort_completed": effort_completed,
+    }
